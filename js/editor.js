@@ -34,19 +34,7 @@ function createTable(){
 
 /* buscador global */
 
-document.getElementById("globalSearch").addEventListener("keyup",function(){
 
-	const value=this.value.toLowerCase()
-
-	table.setFilter(function(data){
-
-		return Object.values(data).some(v=>
-			String(v).toLowerCase().includes(value)
-		)
-
-	})
-
-})
 
 /* añadir fila */
 
@@ -99,4 +87,23 @@ function exportJSON(){
 
 }
 
-createTable()
+
+$(document).ready(function(){
+
+	$("#globalSearch").addEventListener("keyup",function(){
+
+		const value=this.value.toLowerCase()
+
+		table.setFilter(function(data){
+
+			return Object.values(data).some(v=>
+				String(v).toLowerCase().includes(value)
+			)
+
+		})
+
+	})
+	
+	
+	createTable();
+})
