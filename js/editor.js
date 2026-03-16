@@ -13,7 +13,7 @@ const columns=[
 
 function createTable(){
 
-	table = new Tabulator("#tablasEscanear",{
+	table = new Tabulator("#tablaObjetosEscanear",{
 		ajaxURL:"configuracion/tablasEscanear.json",
 		layout:"fitColumns",
 		addRowPos:"top",
