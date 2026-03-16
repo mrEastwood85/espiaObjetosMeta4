@@ -1,37 +1,102 @@
 let table
+let jsonData=[]
 
-$(document).on("change","#fileInput",function(e){
+const columns=[
 
-const file=e.target.files[0]
+	{id:"idClass",title:"idClass"},
+	{id:"idRealObject",title:"idRealObject"},
+	{id:"idPkField",title:"idPkField"},
+	{id:"tipoTransfer",title:"tipoTransfer"},
+	{id:"idRealObjectLectura",title:"idRealObjectLectura"}
 
-const reader=new FileReader()
-
-reader.onload=function(event){
-
-const json=JSON.parse(event.target.result)
-
-const data=json.tablasEscanear
-
-table=new Tabulator("#table",{
-
-data:data,
-
-layout:"fitColumns",
-
-height:"500px",
-
-columns:[
-{title:"idClass",field:"idClass",editor:"input",headerFilter:"input"},
-{title:"idRealObject",field:"idRealObject",editor:"input",headerFilter:"input"},
-{title:"idPkField",field:"idPkField",editor:"input",headerFilter:"input"},
-{title:"tipoTransfer",field:"tipoTransfer",editor:"input",headerFilter:"input"},
-{title:"idRealObjectLectura",field:"idRealObjectLectura",editor:"input",headerFilter:"input"}
 ]
 
-})
+function createTable(){
+
+	table = new Tabulator("#table",{
+		ajaxURL:"/configuracion/tablasEscanear.json",
+		layout:"fitColumns",
+		addRowPos:"top",
+		height:"500px",
+		pagination:false,
+		paginationSize:8,
+		selectable:1,
+		movableColumns:false,
+		columns:columns.map(c=>({
+			title:c.title,
+			field:c.id,
+			editor:"input",
+			headerFilter:"input"
+		}))
+	})
 
 }
 
-reader.readAsText(file)
+/* buscador global */
+
+document.getElementById("globalSearch").addEventListener("keyup",function(){
+
+	const value=this.value.toLowerCase()
+
+	table.setFilter(function(data){
+
+		return Object.values(data).some(v=>
+			String(v).toLowerCase().includes(value)
+		)
+
+	})
 
 })
+
+/* añadir fila */
+
+function addRow(){
+
+	table.addRow({
+
+		idClass:"",
+		idRealObject:"",
+		idPkField:"",
+		tipoTransfer:"",
+		idRealObjectLectura:""
+
+	})
+
+}
+
+/* eliminar fila */
+
+function deleteRow(){
+
+	const rows=table.getSelectedRows()
+
+	if(rows.length===0){
+		alert("Selecciona una fila")
+		return
+	}
+
+	rows[0].delete()
+
+}
+
+/* exportar */
+
+function exportJSON(){
+
+	const data=table.getData()
+	const finalJSON=data
+
+	const blob=new Blob(
+		[JSON.stringify(finalJSON,null,2)],
+		{type:"application/json"}
+	)
+
+	const a=document.createElement("a")
+
+	a.href=URL.createObjectURL(blob)
+	a.download="tablasEscanearDownload.json"
+	a.click()
+
+}
+
+createTable()
