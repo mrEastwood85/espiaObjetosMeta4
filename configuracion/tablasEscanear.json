@@ -1,0 +1,6640 @@
+{
+	"tablasEscanear": [
+		{
+			"idClass": " AP",
+			"idRealObject": " M4AP_X_AGRUPACION_TP_DOC",
+			"idPkField": " AP_ID_AGRUPACION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " AP",
+			"idRealObject": " M4CCL_X_TP_DOCUM",
+			"idPkField": " CCL_ID_TP_DOCUM",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " AP",
+			"idRealObject": " M4GLB_PREF_TEL_PAIS",
+			"idPkField": " ID_ORGANIZATION|STD_ID_COUNTRY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " AP",
+			"idRealObject": " M4GLB_TP_SOLICITUDES_AP",
+			"idPkField": " GLB_ID_TP_SOLIC_AP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " AP_ANTICIPOS",
+			"idRealObject": " M4CCL_TIPO_EJECUCION",
+			"idPkField": " ID_TIPO_EJECUCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " AP_ANTICIPOS",
+			"idRealObject": " M4CCL_TIPO_PROCESO",
+			"idPkField": " ID_TIPO_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " AP_ANTICIPOS",
+			"idRealObject": " M4GLB_MAPEO_IDIOMA_ISO",
+			"idPkField": " ID_IDIOMA_ISO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " AP_ANTICIPOS",
+			"idRealObject": " M4GLB_TABLA_GENERAL_DEFINICION",
+			"idPkField": " NUMERO_CONSULTA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " AP_ANTICIPOS",
+			"idRealObject": " M4GLB_TRANSACCIONES_SERV_REST",
+			"idPkField": " ID_TRANSACCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_CLASIF_DMD",
+			"idPkField": " ID_DMD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_COMP_FUN_GROUP",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD|GLB_ID_DMD_FUN_GROUP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_COMPONENT_ORIG",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD|ID_DMD_COMPONENT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_COMPONENT_TYPE",
+			"idPkField": " ID_DMD|ID_DMD_COMPONENT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_ENTITY",
+			"idPkField": " GLB_ID_DMD_ENTITY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_ENTITY_ORIG",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_ENTITY_VALUE",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_LIST_VAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_KEYS_ENTITY_VALUE",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_LIST_VAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_LEV_ENT_FIELD_VALUES",
+			"idPkField": " GLB_ID_DMD_LEVEL|GLB_ID_DMD_ENTITY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_LEVEL_COMPONENT",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_LEVEL_ENTITY",
+			"idPkField": " GLB_ID_DMD_LEVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_LEVEL_ORIG",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_LEVEL_PRIORITY",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_LIST_VAL",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_LIST_VAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_LIST_VAL_COMPONENT",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_LIST_VAL_DYNAMIC",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_LIST_VAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_LISTVAL_ENTITY",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_LIST_VAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_LISTVAL_RANGE",
+			"idPkField": " CCL_ID_ORIGEN|GLB_DMD_ID_LIST_RANGE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_LISTVAL_RANGE_ENTITY",
+			"idPkField": " CCL_ID_ORIGEN|GLB_DMD_ID_LIST_RANGE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_ORIG",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_ORIG_ENT_PROC_FIELD",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_ENTITY|GLB_DMD_ID_PROCESS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_ORIG_ENT_PROC_TABLE",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_ENTITY|GLB_DMD_ID_PROCESS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_ORIG_ENT_PROCESS",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_ENTITY|GLB_DMD_ID_PROCESS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_RANGE_ENTITY",
+			"idPkField": " CCL_ID_ORIGEN|GLB_DMD_ID_LIST_RANGE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_AGE",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|GLB_DMD_ID_LIST_RANGE|GLB_DMD_ID_RANGE_ENTITY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CAD_JOB_SALA_LVL",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_ID_CADENA|STD_ID_JOB_CODE|GLB_ID_SAL_LEV",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CADENA",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_ID_CADENA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CADENA_JOB",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_ID_CADENA|STD_ID_JOB_CODE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CADENA_JOB_CAT",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_ID_CADENA|STD_ID_JOB_CODE|GLB_ID_CATEGORY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CAT_CONV_LVL",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|GLB_ID_CATEGORY|GLB_ID_AGREEMENT|GLB_ID_LEVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CONT_LEG_JOB_SALVA",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|SSP_ID_CONT_INTERN|STD_ID_LEG_ENT|STD_ID_JOB_CODE|GLB_ID_SAL_LEV",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CONTRATO",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|SSP_ID_CONT_INTERN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CONTTIME_JOB",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_TIEMPO_PARCIAL|STD_ID_JOB_CODE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CONTTIME_JOB_LV",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_TIEMPO_PARCIAL|STD_ID_JOB_CODE|GLB_ID_LEVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CONTTIME_JOB_S",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_TIEMPO_PARCIAL|STD_ID_JOB_CODE|GLB_DMD_ID_LIST_RANGE|GLB_DMD_ID_RANGE_ENTITY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CONTTIME_JOB_WL",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_TIEMPO_PARCIAL|STD_ID_JOB_CODE|STD_ID_WORK_LOCAT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CONTTIME_LEG_J_LV",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_TIEMPO_PARCIAL|STD_ID_LEG_ENT|STD_ID_JOB_CODE|GLB_ID_LEVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CONTTIME_LEG_JOB_S",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_TIEMPO_PARCIAL|STD_ID_LEG_ENT|STD_ID_JOB_CODE|GLB_DMD_ID_LIST_RANGE|GLB_DMD_ID_RANGE_ENTITY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CONTTIME_NAT",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_TIEMPO_PARCIAL|STD_ID_COUNTRY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CTT_JB_LV_SEC",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_TIEMPO_PARCIAL|STD_ID_JOB_CODE|GLB_ID_LEVEL|CCL_ID_SECCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_CTT_LEG_JB_LV_SEC",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_TIEMPO_PARCIAL|STD_ID_LEG_ENT|STD_ID_JOB_CODE|GLB_ID_LEVEL|CCL_ID_SECCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_ENT_LEVEL_JOB",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT|GLB_ID_LEVEL|STD_ID_JOB_CODE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_GEO_PLACE",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_COUNTRY|STD_ID_GEO_DIV|STD_ID_SUB_GEO_DIV|STD_ID_GEO_PLACE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_JOB",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_JOB_CODE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_JOB_CATEGORIA",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_JOB_CODE|GLB_ID_CATEGORY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_JOB_INT_FAM",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_JOB_INT_FAM",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_JOB_LEVEL",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_JOB_CODE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_LEG_ENT",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_LEG_ENT_CAT",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT|GLB_ID_CATEGORY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_LEG_ENT_JOB",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT|STD_ID_JOB_CODE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_LEG_ENT_JOB_SEC",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT|STD_ID_JOB_CODE|CCL_ID_SECCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_LEG_JOB_CAT_SLV_LV",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT|STD_ID_JOB_CODE|GLB_ID_LEVEL|GLB_ID_SAL_LEV|GLB_ID_CATEGORY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_LEG_JOB_CAT_SLVL",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT|STD_ID_JOB_CODE|GLB_ID_CATEGORY|GLB_ID_SAL_LEV",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_LEG_JOB_SALARLVL",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT|STD_ID_JOB_CODE|GLB_ID_SAL_LEV",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_LEG_JOB_SLVL_LVL",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT|STD_ID_JOB_CODE|GLB_ID_LEVEL|GLB_ID_SAL_LEV",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_LEG_LEVEL_CAT",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT|GLB_ID_CATEGORY|GLB_ID_LEVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_LEG_PLACE_SALARLVL",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT|STD_ID_COUNTRY|STD_ID_GEO_DIV|STD_ID_SUB_GEO_DIV|STD_ID_GEO_PLACE|GLB_ID_SAL_LEV",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_LEGEN_WL_JOB_SEC",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT|STD_ID_WORK_LOCAT|STD_ID_JOB_CODE|CCL_ID_SECCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_LEUNDVPL_JCATSLVLV",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|HASH_CODE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_ORIGIN",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_PLACE_LEG_CAT",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_COUNTRY|STD_ID_GEO_DIV|STD_ID_SUB_GEO_DIV|STD_ID_GEO_PLACE|STD_ID_LEG_ENT|GLB_ID_CATEGORY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_PLACE_LEG_CAT_SEC",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_COUNTRY|STD_ID_GEO_DIV|STD_ID_SUB_GEO_DIV|STD_ID_GEO_PLACE|STD_ID_LEG_ENT|GLB_ID_CATEGORY|CCL_ID_SECCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_PLACE_LEG_JOB_CT",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_COUNTRY|STD_ID_GEO_DIV|STD_ID_SUB_GEO_DIV|STD_ID_GEO_PLACE|STD_ID_LEG_ENT|STD_ID_JOB_CODE|SSP_ID_CONT_INTERN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_PLACE_WL_ENT_JOB",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_COUNTRY|STD_ID_GEO_DIV|STD_ID_SUB_GEO_DIV|STD_ID_GEO_PLACE|STD_ID_LEG_ENT|STD_ID_JOB_CODE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_SENIORITY",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|GLB_DMD_ID_LIST_RANGE|GLB_DMD_ID_RANGE_ENTITY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_SENIORITY_JOB",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|GLB_DMD_ID_LIST_RANGE|GLB_DMD_ID_RANGE_ENTITY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_SUB_GEO_DIV",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_COUNTRY|STD_ID_GEO_DIV|STD_ID_SUB_GEO_DIV",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_UNE_DIVPLC_JSLV_LV",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|HASH_CODE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_UNEG_JOB_SAL_LVL",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_ID_UNIDAD_NEG|STD_ID_JOB_CODE|GLB_ID_SAL_LEV",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_UNID_NEG",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_ID_UNIDAD_NEG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_UNID_NEG_JOB",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_ID_UNIDAD_NEG|STD_ID_JOB_CODE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_UNIDNEG_JOB_CAT",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_ID_UNIDAD_NEG|STD_ID_JOB_CODE|GLB_ID_CATEGORY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_WL_TYPE",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_WL_TYPE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_WLOC_CAT",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_WORK_LOCAT|GLB_ID_CATEGORY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_WLOC_CAT_SEC",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_WORK_LOCAT|GLB_ID_CATEGORY|CCL_ID_SECCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_WLOC_ENT_WUNIT",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT|STD_ID_WORK_LOCAT|STD_ID_WORK_UNIT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_WLOC_ENTITY",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_LEG_ENT|STD_ID_WORK_LOCAT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_WLT_CTT_LEG_RWL_RE",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_WL_TYPE|CCL_TIEMPO_PARCIAL|STD_ID_LEG_ENT|STD_ID_COUNTRY_WL|STD_ID_GEO_DIV_WL|STD_ID_COUNTRY_EE|STD_ID_GEO_DIV_EE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_WLT_CTT_RWL_RE",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|CCL_TIEMPO_PARCIAL|STD_ID_WL_TYPE|STD_ID_COUNTRY_WL|STD_ID_GEO_DIV_WL|STD_ID_COUNTRY_EE|STD_ID_GEO_DIV_EE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_WLT_SENIORITY",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|GLB_DMD_ID_LIST_RANGE|GLB_DMD_ID_RANGE_ENTITY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_WORK_LOC",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_WORK_LOCAT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_V_WORK_LOC_JOB",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_LEVEL|ID_DMD|ID_DMD_COMPONENT|STD_ID_WORK_LOCAT|STD_ID_JOB_CODE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_DMD_X_TYPE_ENTITY",
+			"idPkField": " GLB_ID_DMD_TYPE_ENTITY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_TA_CONCEPTS",
+			"idPkField": " ID_ORGANIZATION|ID_TI|ID_ITEM",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_X_DMD_CLASIF_FUN_GROUP",
+			"idPkField": " GLB_ID_DMD_CLASIFICACION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_X_DMD_FUN_GROUP",
+			"idPkField": " GLB_ID_DMD_FUN_GROUP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_X_DMD_LEVEL",
+			"idPkField": " GLB_ID_DMD_LEVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4GLB_X_DMD_TYPE_LEVEL",
+			"idPkField": " GLB_ID_TYPE_LEVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APLICA_VALOR",
+			"idRealObject": " M4RCH_DMD_COMPNTS",
+			"idPkField": " ID_DMD|ID_DMD_COMPONENT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APP_ROLE",
+			"idRealObject": " M4RSC_APPROLE",
+			"idPkField": " ID_APP_ROLE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APP_ROLE",
+			"idRealObject": " M4RSC_ROLE_ORG",
+			"idPkField": " ID_APP_ROLE_USED",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APP_ROLE",
+			"idRealObject": " M4RSC_SEC_PR_OPT",
+			"idPkField": " ID_APP_ROLE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APP_USER",
+			"idRealObject": " M4RSC_APP_USR_ROLE",
+			"idPkField": " ID_APP_USR",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APP_USER",
+			"idRealObject": " M4RSC_APPUSER",
+			"idPkField": " ID_APP_USER",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " APP_USER",
+			"idRealObject": " M4RSC_USR_TYPES",
+			"idPkField": " ID_USR_TYPE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " AUDITORIA_M4",
+			"idRealObject": " M4RAU_LOBJ_OPE",
+			"idPkField": " ID_OBJECT|ID_RSM",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " AUDITORY LT",
+			"idRealObject": " M4RAU_LOBJ_OPE",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFF_NEG",
+			"idRealObject": " M4BCKN_ATRIBUTOS",
+			"idPkField": " ID_ATRIBUTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFF_NEG",
+			"idRealObject": " M4BCKN_CONFIGURACION",
+			"idPkField": " ID_NIVEL|ID_ATRIBUTO|PK|ROL_FUNCIONAL|MODULO|PAIS|ORIGEN|COLECTIVO|EMPRESA|UNID_NEGOCIO|TP_LUGAR_TRABAJO|PROVINCIA|CONVENIO|LUGAR_TRABAJO|WUNIT|AREA_ALM|EQUIPO_ORG|EQUIPO|PUESTO|TP_CONTRATO|SECCION|TP_TURNO|TURNO|USUARIO|DT_START",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFF_NEG",
+			"idRealObject": " M4BCKN_NIVEL_ATRIB_AMBITO",
+			"idPkField": " ID_NIVEL|ID_ATRIBUTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFF_NEG",
+			"idRealObject": " M4BCKN_NIVEL_ATRIBUTOS",
+			"idPkField": " ID_NIVEL|ID_ATRIBUTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFF_NEG",
+			"idRealObject": " M4BCKN_NIVELES",
+			"idPkField": " ID_NIVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFF_NEG",
+			"idRealObject": " M4BCKN_NIVELES_CAMPOS",
+			"idPkField": " ID_NIVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFF_NEG",
+			"idRealObject": " M4BCKN_PIRAMIDE",
+			"idPkField": " ID_ENTIDAD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFF_NEG",
+			"idRealObject": " M4BCKN_VAL_ATRIBUTOS",
+			"idPkField": " ID_ATRIBUTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFFICE",
+			"idRealObject": " M4BCK_ATRIBUTOS",
+			"idPkField": " ID_ATRIBUTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFFICE",
+			"idRealObject": " M4BCK_CONFIGURACION",
+			"idPkField": " ID_NIVEL|ID_ATRIBUTO|PK|ROL_FUNCIONAL|ORIGEN|LUGAR_TRABAJO|EMPRESA|PAIS|WUNIT|TP_LUGAR_TRABAJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFFICE",
+			"idRealObject": " M4BCK_NIVEL_ATRIB_AMBITO",
+			"idPkField": " ID_NIVEL|ID_ATRIBUTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFFICE",
+			"idRealObject": " M4BCK_NIVEL_ATRIBUTOS",
+			"idPkField": " ID_NIVEL|ID_ATRIBUTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFFICE",
+			"idRealObject": " M4BCK_NIVELES",
+			"idPkField": " ID_NIVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFFICE",
+			"idRealObject": " M4BCK_NIVELES_CAMPOS",
+			"idPkField": " ID_NIVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFFICE",
+			"idRealObject": " M4BCK_PIRAMIDE",
+			"idPkField": " ID_ENTIDAD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFFICE",
+			"idRealObject": " M4BCK_TIPO_CALCULO",
+			"idPkField": " ID_TP_CALCULO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFFICE",
+			"idRealObject": " M4BCK_VAL_ATRIBUTOS",
+			"idPkField": " ID_ATRIBUTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BACKOFFICE",
+			"idRealObject": " M4MPR_ENTIDADES_LISTA",
+			"idPkField": " ID_ENTIDAD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BP CATEGORY",
+			"idRealObject": " M4RBP_BP_CATEGORY",
+			"idPkField": " ID_CATEGORY",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BP CATEGORY",
+			"idRealObject": " M4RBP_CATEGORIES",
+			"idPkField": " ID_CATEGORY",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BUSINESS PROCESS",
+			"idRealObject": " M4RBP__PAR_DINAMIC",
+			"idPkField": " ID_BP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BUSINESS PROCESS",
+			"idRealObject": " M4RBP_CODE",
+			"idPkField": " ID_BP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BUSINESS PROCESS",
+			"idRealObject": " M4RBP_CODE_ALIAS",
+			"idPkField": " ID_BP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BUSINESS PROCESS",
+			"idRealObject": " M4RBP_DEF",
+			"idPkField": " ID_BP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BUSINESS PROCESS",
+			"idRealObject": " M4RBP_EXE_CODE",
+			"idPkField": " ID_BP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BUSINESS PROCESS",
+			"idRealObject": " M4RBP_PAR_DEF",
+			"idPkField": " ID_BP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BUSINESS PROCESS",
+			"idRealObject": " M4RBP_PARAM_DEF",
+			"idPkField": " ID_BP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BUSINESS PROCESS",
+			"idRealObject": " M4RBP_PARAM_DEFAUL",
+			"idPkField": " ID_BP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BUSINESS PROCESS",
+			"idRealObject": " M4RBP_PARAM_FLOW",
+			"idPkField": " ID_BP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " BUSINESS PROCESS",
+			"idRealObject": " M4RBP_STRUCT",
+			"idPkField": " ID_BP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " CASE MODULE",
+			"idRealObject": " M4RDD_CASE_MODULES",
+			"idPkField": " ID_MODULE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " CASE MODULE",
+			"idRealObject": " M4RDD_CMOD_EXT_PTS",
+			"idPkField": " ID_MODULE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " CASE MODULE",
+			"idRealObject": " M4RDD_CMOD_OBJS",
+			"idPkField": " ID_MODULE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " CASE MODULE",
+			"idRealObject": " M4RDD_CMOD_RELS",
+			"idPkField": " ID_MODULE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " CATEGORY",
+			"idRealObject": " M4RPT_THESAURUS",
+			"idPkField": " ID_CATEGORY",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " COLOR",
+			"idRealObject": " M4RRP_COLORS",
+			"idPkField": " ID_COLOR",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " COMP_MOTOR_FICHA",
+			"idRealObject": " M4GLB_GRUPOS_INFO_ADIC",
+			"idPkField": " ID_ORIGEN|ID_GRUPO|POS_CAMPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " COMP_MOTOR_FICHA",
+			"idRealObject": " M4WSI_CONF_GRUPOS",
+			"idPkField": " ID_ORIGEN|ID_GRUPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " COMP_MOTOR_FICHA",
+			"idRealObject": " M4WSI_X_GRUPOS",
+			"idPkField": " ID_GRUPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " COMP_MOTOR_FICHA",
+			"idRealObject": " M4WSI_X_GRUPOS#",
+			"idPkField": " ID_GRUPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4WSI_X_GRUPOS"
+		},
+		{
+			"idClass": " COMP_MOTOR_LUPA",
+			"idRealObject": " M4GLB_CAMPOS_MAESTRO",
+			"idPkField": " ID_MAESTRO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " COMP_MOTOR_LUPA",
+			"idRealObject": " M4GLB_FILTROS_MAESTRO",
+			"idPkField": " ID_MAESTRO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " COMP_MOTOR_LUPA",
+			"idRealObject": " M4GLB_LST_MAESTROS",
+			"idPkField": " ID_MAESTRO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " COMP_MOTOR_TABLAG",
+			"idRealObject": " M4WSI_CAMPOS_CONSULTA",
+			"idPkField": " ID_CONSULTA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " COMP_MOTOR_TABLAG",
+			"idRealObject": " M4WSI_CONSULTAS",
+			"idPkField": " ID_CONSULTA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " CONFIG_DEL",
+			"idRealObject": " M4GLB_DEL_OBJECTS",
+			"idPkField": " ID_ORGANIZATION|ID_TABLA|ID_PROCESS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " CONFIG_DEL",
+			"idRealObject": " M4GLB_DEL_PROCESS",
+			"idPkField": " ID_ORGANIZATION|ID_PROCESS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " CONFL_BAJA",
+			"idRealObject": " M4SCO_JAM",
+			"idPkField": " ID_ORGANIZATION|SCO_JAM_TABLE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " CONFL_BAJA",
+			"idRealObject": " M4SCO_JAM2",
+			"idPkField": " ID_ORGANIZATION|SCO_JAM_TABLE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4SCO_JAM"
+		},
+		{
+			"idClass": " CONFL_BAJA",
+			"idRealObject": " M4SCO_JAM3",
+			"idPkField": " ID_ORGANIZATION|SCO_JAM_TABLE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4SCO_JAM"
+		},
+		{
+			"idClass": " CONFL_BAJA",
+			"idRealObject": " M4SEDES_T_JAM",
+			"idPkField": " ID_ORGANIZATION|SCO_JAM_TABLE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " DMD",
+			"idRealObject": " M4RCH_DMD_COMPNTS",
+			"idPkField": " ID_DMD",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " DMD",
+			"idRealObject": " M4RCH_DMD_GROUPS",
+			"idPkField": " ID_DMD",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " DMD",
+			"idRealObject": " M4RCH_DMD_GRP_CMP",
+			"idPkField": " ID_DMD",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " DMD",
+			"idRealObject": " M4RCH_DMDS",
+			"idPkField": " ID_DMD",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " DMD",
+			"idRealObject": " M4RCH_VALUES",
+			"idPkField": " ID_DMD",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " DMD",
+			"idRealObject": " M4RCH_VALUES_GRPS",
+			"idPkField": " ID_DMD",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " CCL_ENCUESAL_IDIOMA",
+			"idPkField": " GLB_ID_SURVEY|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4CCL_ENCUESAL_DUR_CONTRATO",
+			"idPkField": " GLB_ID_SURVEY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4CCL_ENCUESAL_MOT_BAJA",
+			"idPkField": " ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4CCL_ENCUESAL_PAIS",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4CSP_GR_ADJUNTO1",
+			"idPkField": " ID_ADJUNTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4CSP_GR_ADJUNTOS"
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4CSP_GR_ADJUNTOS",
+			"idPkField": " ID_ADJUNTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4CSP_GR_HTML",
+			"idPkField": " ID_FORMATO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4CSP_GR_HTML_ADJ",
+			"idPkField": " ID_FORMATO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4CSP_GR_HTML1",
+			"idPkField": " ID_FORMATO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4CSP_GR_HTML"
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4GLB_SURVEY_DEF",
+			"idPkField": " GLB_ID_SURVEY|GLB_ID_TEXT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4GLB_X_SURVEY_TEXT",
+			"idPkField": " GLB_ID_TEXT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4GLB_X_SURVEY_TEXT#",
+			"idPkField": " GLB_ID_TEXT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4GLB_X_SURVEY_TEXT"
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4GLB_X_SURVEYS",
+			"idPkField": " GLB_ID_SURVEY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4GLB_X_SURVEYS#",
+			"idPkField": " GLB_ID_SURVEY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4GLB_X_SURVEYS"
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4GLB_X_TEXT_GROUP",
+			"idPkField": " GLB_ID_GROUP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4GLB_X_TEXT_GROUP#",
+			"idPkField": " GLB_ID_GROUP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4GLB_X_TEXT_GROUP"
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4GLB_X_TP_ANSWER",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_ANSWER",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENCUESTAS",
+			"idRealObject": " M4GLB_X_TP_VALUES",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_VALUE|GLB_ID_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENVIO_AUDITORIA",
+			"idRealObject": " M4GLB_AU_FUNC",
+			"idPkField": " ID_FUNC",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENVIO_AUDITORIA",
+			"idRealObject": " M4GLB_AU_FUNC_TABLA",
+			"idPkField": " ID_TABLA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENVIO_AUDITORIA",
+			"idRealObject": " M4GLB_AU_TABLA_ACC",
+			"idPkField": " ID_TABLA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENVIOS_SINCRO",
+			"idRealObject": " M4GLB_ACCIONES_ENVIO",
+			"idPkField": " CCL_ID_TIPO_ENVIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENVIOS_SINCRO",
+			"idRealObject": " M4GLB_ACCIONES_PROCESO",
+			"idPkField": " CCL_ID_TIPO_ENVIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENVIOS_SINCRO",
+			"idRealObject": " M4GLB_CLAVES_TIPO_ENVIO",
+			"idPkField": " CCL_ID_TIPO_ENVIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENVIOS_SINCRO",
+			"idRealObject": " M4GLB_NODOS_ENVIO",
+			"idPkField": " CCL_ID_TIPO_ENVIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENVIOS_SINCRO",
+			"idRealObject": " M4GLB_OBJECTOS_ENVIO",
+			"idPkField": " CCL_ID_TIPO_ENVIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENVIOS_SINCRO",
+			"idRealObject": " M4GLB_RELACION_ENVIOS",
+			"idPkField": " CCL_ID_TIPO_ENVIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENVIOS_SINCRO",
+			"idRealObject": " M4GLB_TIPO_ACCION",
+			"idPkField": " CCL_ID_TIPO_ACCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ENVIOS_SINCRO",
+			"idRealObject": " M4GLB_TIPO_ENVIO",
+			"idPkField": " CCL_ID_TIPO_ENVIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EVENT",
+			"idRealObject": " M4REV_DEST",
+			"idPkField": " ID_EVENT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EVENT",
+			"idRealObject": " M4REV_EVENT",
+			"idPkField": " ID_EVENT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EVENT",
+			"idRealObject": " M4REV_ORIG",
+			"idPkField": " ID_EVENT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EVENT",
+			"idRealObject": " M4REV_PARAM",
+			"idPkField": " ID_EVENT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EVENT",
+			"idRealObject": " M4REV_PARAM_DEST",
+			"idPkField": " ID_EVENT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EVENT",
+			"idRealObject": " M4REV_PARAM_ORIG",
+			"idPkField": " ID_EVENT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EVENT MODULE",
+			"idRealObject": " M4REV_LU_MODULES",
+			"idPkField": " ID_MODULE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EXECUTION_PROJECTS",
+			"idRealObject": " M4RDM_OS_PROJ_MEMS",
+			"idPkField": " ID_PROJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EXECUTION_PROJECTS",
+			"idRealObject": " M4RDM_OS_PROJ_TREE",
+			"idPkField": " ID_PROJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EXECUTION_PROJECTS",
+			"idRealObject": " M4RDM_OS_PROJECTS",
+			"idPkField": " ID_PROJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EXECUTION_PROJECTS1",
+			"idRealObject": " M4RDM_OS_PROJ_MEMS",
+			"idPkField": " ID_PROJECT|ID_CLASS|ID_INSTANCE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EXECUTION_PROJECTS1",
+			"idRealObject": " M4RDM_OS_PROJ_TREE",
+			"idPkField": " ID_PROJECT|ID_PAR_PROJECT|DISTANCE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EXECUTION_PROJECTS1",
+			"idRealObject": " M4RDM_OS_PROJECTS",
+			"idPkField": " ID_PROJECT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EXECUTION_PROJECTS1",
+			"idRealObject": " M4RDM_OS_PROJECTS1",
+			"idPkField": " ID_PROJECT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4RDM_OS_PROJECTS"
+		},
+		{
+			"idClass": " EXTENDED FUNCTION",
+			"idRealObject": " M4RDC_EXT_FUNC_ARG",
+			"idPkField": " ID_FUNCTION",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EXTENDED FUNCTION",
+			"idRealObject": " M4RDC_EXTENDED_FUN",
+			"idPkField": " ID_FUNCTION",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EXTENDED FUNCTION",
+			"idRealObject": " M4RDC_FUN_ARGS_REL",
+			"idPkField": " ID_FUNCTION",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EXTENDED FUNCTION",
+			"idRealObject": " M4RDC_FUNCTION_REL",
+			"idPkField": " ID_FUNCTION",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EXTENDED TYPE",
+			"idRealObject": " M4RDC_EXT_TPS_TRAN",
+			"idPkField": " ID_TYPE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " EXTENDED TYPE",
+			"idRealObject": " M4RDC_EXTENDED_TPS",
+			"idPkField": " ID_TYPE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FILTER",
+			"idRealObject": " M4RDC_FILTERS",
+			"idPkField": " ID_FILTER",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4GLB_11_ATRIB_PROCESO_UNI_NEG",
+			"idPkField": " CCL_ID_UNIDAD_NEG|ID_FLUJO|ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_CLASIF_OR_CAMPO_ATRIB",
+			"idPkField": " ID_ORGANIZATION|ID_CLASIFICACION|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_CLASIF_OR_CAMPO_EXC",
+			"idPkField": " ID_ORGANIZATION|ID_CLASIFICACION|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_CLASIF_OR_CAMPO_INPUT",
+			"idPkField": " ID_ORGANIZATION|ID_CLASIFICACION|CCL_ID_ORIGEN|ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_CLASIF_OR_CAMPOS",
+			"idPkField": " ID_ORGANIZATION|ID_CLASIFICACION|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_CLASIF_ORIGEN",
+			"idPkField": " ID_ORGANIZATION|ID_CLASIFICACION|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_CLASIFICACIONES",
+			"idPkField": " ID_ORGANIZATION|ID_CLASIFICACION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_APLICACIONES",
+			"idPkField": " ID_FLUJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PAISES",
+			"idPkField": " ID_FLUJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_AGIL_SUST",
+			"idPkField": " ID_ORGANIZATION|ID_FLUJO|ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_BLOQ",
+			"idPkField": " ID_FLUJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_CAN_MIX_INPUT",
+			"idPkField": " ID_FLUJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_CANCEL",
+			"idPkField": " ID_FLUJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_CANCEL_MIX",
+			"idPkField": " ID_FLUJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_ENTIDADES",
+			"idPkField": " ID_FLUJO|ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_ERR_MIX_INPUT",
+			"idPkField": " ID_FLUJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_ERROR",
+			"idPkField": " ID_FLUJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_ERROR_MIX",
+			"idPkField": " ID_FLUJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_OK",
+			"idPkField": " ID_FLUJO|ID_PROCESO|ID_PROX_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_OK_MIX",
+			"idPkField": " ID_FLUJO|ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_OK_MIX_INPUT",
+			"idPkField": " ID_FLUJO|ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_STOP",
+			"idPkField": " ID_FLUJO|ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_STOP_VAR",
+			"idPkField": " ID_FLUJO|ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROC_VAR_MAP",
+			"idPkField": " ID_ORGANIZATION|ID_FLUJO|ID_PROCESO|ID_NODE|ID_ITEM",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_PROCESOS",
+			"idPkField": " ID_FLUJO|ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_RESP",
+			"idPkField": " ID_FLUJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_ROL_FUNC",
+			"idPkField": " ID_FLUJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJO_VARIABLES",
+			"idPkField": " ID_FLUJO|ID_VARIABLE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FLUJO",
+			"idRealObject": " M4MPR_FLUJOS",
+			"idPkField": " ID_FLUJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FORMAT",
+			"idRealObject": " M4RPT_FORMATS",
+			"idPkField": " ID_FORMAT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FUNC MODULE ERRORS",
+			"idRealObject": " M4RSY_ERROR_MSGS",
+			"idPkField": " ID_FUN_MOD_NUM",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FUNC MODULE ERRORS",
+			"idRealObject": " M4RSY_FUN_MODULES",
+			"idPkField": " ID_FUN_MOD_NUM",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FUNCTIONAL MODULE",
+			"idRealObject": " M4RSY_FUN_MOD_OBJ",
+			"idPkField": " ID_FUN_MODULE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FUNCTIONAL MODULE",
+			"idRealObject": " M4RSY_FUN_MODULES",
+			"idPkField": " ID_FUN_MODULE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " FUNCTIONAL MODULE",
+			"idRealObject": " M4RSY_FUN_SMODULES",
+			"idPkField": " ID_FUN_MODULE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR RESPUESTAS",
+			"idRealObject": " M4CSP_GR_GRUPOS",
+			"idPkField": " ID_GRUPO_PROC",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR RESPUESTAS",
+			"idRealObject": " M4CSP_GR_PROC",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR RESPUESTAS",
+			"idRealObject": " M4CSP_GR_SUBGRUPOS",
+			"idPkField": " ID_GRUPO_PROC|ID_SUBGRUPO_PROC",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR RESPUESTAS",
+			"idRealObject": " M4CSP_GR_TEXTOS_PR",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR RESPUESTAS",
+			"idRealObject": " M4CSP_GR_TXT_TRAD",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR RESPUESTAS",
+			"idRealObject": " M4CSP_SEG_PROC_ROL",
+			"idPkField": " ID_PROCESO|ID_APP_ROLE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " LVK_CATEG_DOC",
+			"idPkField": " ID_TP_DOCUMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " LVK_CATEGORIAS",
+			"idPkField": " ID_CATEGORIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " LVK_DOC_SEG_ROL",
+			"idPkField": " ID_TP_DOCUMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " LVK_M4O_MAP",
+			"idPkField": " ID_TP_DOCUMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4GLB_DIGIT_DOC_BUSQ",
+			"idPkField": " ATR_ID_APLICACION|ATR_ID_MODULO|ID_TIPO|ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4GLB_DIGIT_DOC_COLUMNAS",
+			"idPkField": " ATR_ID_APLICACION|ATR_ID_MODULO|ID_COLUMNA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4GLB_DIGIT_DOC_FILTROS",
+			"idPkField": " ATR_ID_APLICACION|ATR_ID_MODULO|ID_FILTRO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4GLB_DIGIT_DOC_PERMISOS",
+			"idPkField": " ORDINAL|ID_TP_DOCUMENTO|GLB_ID_ROL_FUNCIONAL|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4GLB_PDF_TEMPLATE_TP_DOCUM",
+			"idPkField": " GLB_ID_PDF_TEMPLATE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_CATEG_ATTR",
+			"idPkField": " ID_CATEGORIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_CONEXION",
+			"idPkField": " ID_GESTOR_DOCUMENTAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_CONEXION_URL",
+			"idPkField": " ID_GESTOR_DOCUMENTAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_CONFIG_CARGA_INCLUDE",
+			"idPkField": " ID_FUNCIONALIDAD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_CONFIG_TRASP_TP_DOC",
+			"idPkField": " ID_TP_DOCUMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_DOC_ATTR",
+			"idPkField": " ID_TP_DOCUMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_DOC_TABLES_SAVE",
+			"idPkField": " ID_TP_DOCUMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_ENTIDADES_LISTA",
+			"idPkField": " ID_ENTIDAD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_FLUJO_ESTADO_DOC",
+			"idPkField": " ID_TP_DOCUMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_FORMATOS",
+			"idPkField": " ID_FORMATO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_FORMATOS_DOC",
+			"idPkField": " ID_TP_DOCUMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_GESTOR_DOCUMENTAL",
+			"idPkField": " ID_GESTOR_DOCUMENTAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_GRUPOS",
+			"idPkField": " ID_GRUPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_ITEM_MAP",
+			"idPkField": " ID_TP_DOCUMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_NODE_MAP",
+			"idPkField": " ID_TP_DOCUMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_SUBGRUPOS",
+			"idPkField": " ID_GRUPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_TIPO_SERVICIO",
+			"idPkField": " ID_TIPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_TP_DOCUMENTO",
+			"idPkField": " ID_TP_DOCUMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_X_ESTADO_DOC",
+			"idPkField": " ID_ESTADO_DOC",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GESTOR_DOC",
+			"idRealObject": " M4LVK_X_FUNC_DOC",
+			"idPkField": " ID_FUNCIONALIDAD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4_CCL_X_GA_CONCEP",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_CONCEP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_GA_TP_TRAMO_PRODUCTIVIDA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_TP_TRAMO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_H_GA_AYU_CON",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_CONVENIO|CCL_ID_TP_AYUDA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_H_GA_CND_CON",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_LEG_ENT|CCL_ID_CONCEP|CCL_ID_CONDICION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_H_GA_CON_AYU",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_CONVENIO|CCL_ID_TP_AYUDA|CCL_ID_CONDICION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_H_GA_CON_NOM",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_LEG_ENT|CCL_ID_CONCEP|CCL_ID_",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_H_GA_NOM_IND",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_LEG_ENT|CCL_ID_CONCEP|SCO_ID_INCIDENCE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_H_GA_NOM_TAR",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_LEG_ENT|CCL_ID_TAREA|CCL_ID_CONCEP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_H_GA_TAREA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_LEG_ENT|CCL_ID_TAREA|CCL_ID_COD_AS400",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_TP_AMB_PRODUCTIVIDAD",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_TP_AMBITO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_TP_AUX_VAL_AMB_PRO",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_TP_AMBITO|CCL_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_TP_AUX_VAL_RH_CONCP",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_TP_VALOR|CCL_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_TP_VAL_RH_CONCP",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_TP_VALOR",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_X_GA_TP_AYUD",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_TP_AYUDA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_X_GA_TP_CND",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_CONDICION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_X_GA_TP_TRM",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_TP_TRAMO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4CCL_X_GT_TAREA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_TAREA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4GLB_GA_ALIAS_INCIDENCE",
+			"idPkField": " ID_ORGANIZATION|SCO_ID_INCIDENCE|GLB_NM_INCIDENCE_CORTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4SCO_INCIDENCE",
+			"idPkField": " ID_ORGANIZATION|SCO_ID_INCIDENCE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4SCO_INCIDENCE_GR",
+			"idPkField": " ID_ORGANIZATION|SCO_ID_INC_GROUP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " GPA NOMINA",
+			"idRealObject": " M4SCO_INCIDENCE_TP",
+			"idPkField": " ID_ORGANIZATION|SCO_ID_INCIDENCE_T",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " IMPORT",
+			"idRealObject": " M4RIM_FIELDSIM",
+			"idPkField": " ID_COD_IMP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " IMPORT",
+			"idRealObject": " M4RIM_IMPORTS",
+			"idPkField": " ID_COD_IMP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " IMPORT GROUP",
+			"idRealObject": " M4RIM_GROUPIM",
+			"idPkField": " ID_COD_GROUP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " IMPORT GROUP",
+			"idRealObject": " M4RIM_RELIM",
+			"idPkField": " ID_COD_GROUP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " IOP",
+			"idRealObject": " M4GLB_IOP_LEG_ENT_CADENA",
+			"idPkField": " ID_ORGANIZATION|STD_ID_LEG_ENT|CCL_ID_CADENA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " JAVA OBJECT",
+			"idRealObject": " M4RJV_JAR_DEF",
+			"idPkField": " ID_JAR",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " JAVA OBJECT",
+			"idRealObject": " M4RJV_JAR_VER_FILE",
+			"idPkField": " ID_JAR",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " JOB GROUP",
+			"idRealObject": " M4RJS_DOC_EXE",
+			"idPkField": " ID_JOB_GROUP_DEF",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " JOB GROUP",
+			"idRealObject": " M4RJS_JOB_DEF",
+			"idPkField": " ID_JOB_GROUP_DEF",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " JOB GROUP",
+			"idRealObject": " M4RJS_JOB_EXE",
+			"idPkField": " ID_JOB_GROUP_DEF",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " JOB GROUP",
+			"idRealObject": " M4RJS_JOB_PARAMS",
+			"idPkField": " ID_JOB_GROUP_DEF",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " JOB GROUP",
+			"idRealObject": " M4RJS_JOBGROUP_EXE",
+			"idPkField": " ID_JOB_GROUP_DEF",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " JOB GROUP",
+			"idRealObject": " M4RJS_JOBGRP_DEF",
+			"idPkField": " ID_JOB_GROUP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " JOB GROUP",
+			"idRealObject": " M4RJS_PARAM_EXEC",
+			"idPkField": " ID_JOB_GROUP_DEF",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " JOB GROUP",
+			"idRealObject": " M4RJS_PARAM_FLOW",
+			"idPkField": " ID_JOB_GROUP_DEF",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " JOB GROUP",
+			"idRealObject": " M4RJS_RESOURCE_EXE",
+			"idPkField": " ID_JOB_GROUP_DEF",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RCH_CAR_FILTERS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RCH_CAR_FLTR_FLD",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RCH_VALUES",
+			"idPkField": " ID_OBJECT_VALUES",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RCH_YTD_OBJECTS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_FIELDS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_FIELDS_TRANS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_INDEX",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_INDEX_COLS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_LOGIC_OBJECT",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_REAL_FIELDS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_REAL_INDEX",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_REAL_OBJECTS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_REL_FM_SBREC",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_RELATIONS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_RLTION_FLDS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_SEC_FIELDS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_TH_PLANA",
+			"idPkField": " ID_HIJA",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDC_VIEW_CODE",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDD_FIELDS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDD_FIELDS_TRANS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDD_INDEX",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDD_INDEX_COLS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDD_LOGIC_OBJECT",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDD_REL_FM_SBREC",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDD_RELATIONS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDD_TH_PLANA",
+			"idPkField": " ID_HIJA",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " LOGICAL TABLE",
+			"idRealObject": " M4RDD_VIEW_CODE",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " MENSAJE_ERROR",
+			"idRealObject": " M4RSY_ERROR_MSGS",
+			"idPkField": " ID_FUN_MOD_NUM|ID_FUN_SMOD_NUM|ID_ERROR_MSG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " MENSAJE_ERROR",
+			"idRealObject": " M4RSY_ERROR_MSGS1",
+			"idPkField": " ID_FUN_MOD_NUM|ID_FUN_SMOD_NUM|ID_ERROR_MSG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4RSY_ERROR_MSGS"
+		},
+		{
+			"idClass": " MENSAJE_ERROR",
+			"idRealObject": " M4RSY_ERROR_MSGS2",
+			"idPkField": " ID_FUN_MOD_NUM|ID_FUN_SMOD_NUM|ID_ERROR_MSG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4RSY_ERROR_MSGS"
+		},
+		{
+			"idClass": " MENSAJE_ERROR",
+			"idRealObject": " M4RSY_ERROR_MSGS3",
+			"idPkField": " ID_FUN_MOD_NUM|ID_FUN_SMOD_NUM|ID_ERROR_MSG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4RSY_ERROR_MSGS"
+		},
+		{
+			"idClass": " MENSAJE_ERROR",
+			"idRealObject": " M4RSY_ERROR_MSGS4",
+			"idPkField": " ID_FUN_MOD_NUM|ID_FUN_SMOD_NUM|ID_ERROR_MSG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4RSY_ERROR_MSGS"
+		},
+		{
+			"idClass": " MENSAJE_ERROR",
+			"idRealObject": " M4RSY_ERROR_MSGS5",
+			"idPkField": " ID_FUN_MOD_NUM|ID_FUN_SMOD_NUM|ID_ERROR_MSG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4RSY_ERROR_MSGS"
+		},
+		{
+			"idClass": " MENSAJE_ERROR",
+			"idRealObject": " M4RSY_ERROR_MSGS6",
+			"idPkField": " ID_FUN_MOD_NUM|ID_FUN_SMOD_NUM|ID_ERROR_MSG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4RSY_ERROR_MSGS"
+		},
+		{
+			"idClass": " MENSAJE_ERROR",
+			"idRealObject": " M4RSY_ERROR_MSGS7",
+			"idPkField": " ID_FUN_MOD_NUM|ID_FUN_SMOD_NUM|ID_ERROR_MSG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4RSY_ERROR_MSGS"
+		},
+		{
+			"idClass": " MENSAJE_ERROR",
+			"idRealObject": " M4RSY_FUN_MODULES",
+			"idPkField": " ID_FUN_MOD_NUM",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " MENSAJE_ERROR",
+			"idRealObject": " M4RSY_FUN_SMODULES",
+			"idPkField": " ID_FUN_MOD_NUM|ID_FUN_SMOD_NUM",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " MENU OPTION",
+			"idRealObject": " M4RMN_ARGUMENTS",
+			"idPkField": " ID_MENU",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " MENU OPTION",
+			"idRealObject": " M4RMN_OPTIONS",
+			"idPkField": " ID_MENU",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " MENU OPTION",
+			"idRealObject": " M4RMN_TREE",
+			"idPkField": " ID_MENU",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " MENU_MARCO",
+			"idRealObject": " M4WSI_FICHERO_FUENTES",
+			"idPkField": " ID_ORGANIZATION|GRUPO_FICHEROS|TIPO_FICHERO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " MENU_MARCO",
+			"idRealObject": " M4WSI_OPC_MENU_APP",
+			"idPkField": " ATR_ID_APLICACION|ATR_ID_MODULO|ID_MENUS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " MENU_MARCO",
+			"idRealObject": " M4WSI_OPC_MENU_APP_WAS",
+			"idPkField": " ATR_ID_APLICACION|ATR_ID_MODULO|ID_MENUS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_ALIAS_RES",
+			"idPkField": " ID_ALIAS_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_BO_MET_ARG",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_BO_METHOD",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_CONCEPT_NODE",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_CONCTOR_ARG",
+			"idPkField": " ID_ITEM_CONCTOR_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_CONCTOR_ITEM",
+			"idPkField": " ID_ITEM_CONCTOR_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_CONCTOR_PAR",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_CONNECTORS",
+			"idPkField": " ID_CONNECTOR_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_DISABLEDITEM",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_FILTER_MASK",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_FILTER_PRED",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_FILTERS",
+			"idPkField": " ID_FILTER_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_INDEX",
+			"idPkField": " ID_INDEX_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_INDEX_ITEM",
+			"idPkField": " ID_INDEX_ITEM_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_ITEM_CSDESC",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_ITEM_MASK",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_MD_VERSION",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_NODE_FILTER",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_NODE_MASK",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_NODE_MIG",
+			"idPkField": " ID_T3_MIG",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_NODES",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_OVERWRITE_NO",
+			"idPkField": " ID_NODE_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_PAYROLL_ITEM",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_PI_TAGS",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_PICOMPONENTS",
+			"idPkField": " ID_COMPONENT_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_QUERY_USER",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_T3_ALIAS_RES",
+			"idPkField": " ID_ALIAS_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_T3_CONN_ITEM",
+			"idPkField": " ID_LIST_ITEM_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_T3_CONNTORS",
+			"idPkField": " ID_LIST_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_T3_INHERIT",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_T3_MIG",
+			"idPkField": " ID_T3_MIG",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RCH_T3S",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RFE_NODE_PROPS",
+			"idPkField": " ID_CHANNEL",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RFE_PAT_REL",
+			"idPkField": " ID_CHANNEL",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RPM_PAYROLL_MENU",
+			"idPkField": " ID_T3_EXE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RPM_PAYROLL_T3S",
+			"idPkField": " ID_T3_EXE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RRP_NODE_GROUPS",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RRP_NODES_IN_GRP",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RRP_VISIBLE_NODE",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RWP_NDS_AC_READ",
+			"idPkField": " ID_T3_PAYROLL",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RWP_NODES_AC_CLC",
+			"idPkField": " ID_NODE_AC_CALC_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RWP_NODES_CALC",
+			"idPkField": " ID_T3_PAYROLL",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RWP_NODES_CALC_O",
+			"idPkField": " ID_T3_PAYROLL",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RWP_NODES_FILTER",
+			"idPkField": " ID_ITEM_FILTER_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RXM_ITEM_MAP",
+			"idPkField": " ID_META4OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RXM_M4OBJECT_MAP",
+			"idPkField": " ID_META4OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " M4RXM_NODE_MAP",
+			"idPkField": " ID_META4OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " META4OBJECT",
+			"idRealObject": " SPR_DIN_OBJECTS",
+			"idPkField": " ID_T3_I",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RAU_PAR_AUDT_LOB",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_CHANNEL_DEP",
+			"idPkField": " ID_RULE_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_CONCEPT_NODE",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_CONCEPTS",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_CONCEPTS_OWR",
+			"idPkField": " ID_CONCEPT_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_EXTERNAL_DEP",
+			"idPkField": " ID_RULE_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_INTERNAL_DEP",
+			"idPkField": " ID_RULE_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_ITEM_ARGS",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_ITEM_PI",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_ITEMS",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_ITEMS_OWR",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_LU_EXE_GROUP",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_QRY_LETR_DEP",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_RULE_SENTENC",
+			"idPkField": " ID_RULE_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_RULES",
+			"idPkField": " ID_RULE_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_TAGS",
+			"idPkField": " ID_TAG_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_TI_ALIAS",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_TI_CONN_ITM",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_TI_FILTERS",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_TI_MASK",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_TI_MD_VER",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_TI_T3_ALIAS",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_TIS",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_TIS_INHERIT",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_TOTAL_REF",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RCH_TOTALS",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " NODE STRUCTURE",
+			"idRealObject": " M4RXM_ITEM_MAP",
+			"idPkField": " ID_TI",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ONBOARDING",
+			"idRealObject": " M4GLB_OB_ADM_API_AUX",
+			"idPkField": " ID_ORGANIZATION|GLB_ORIGEN|GLB_ID_CONFIG|GLB_FILTRO|GLB_STEP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_ADDRESS",
+			"idRealObject": " M4GLB_ADDRESS_LEVEL",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_TP_ADDRESS_LEVEL|GLB_ID_CAMPO_NIVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_ADDRESS",
+			"idRealObject": " M4GLB_TP_ADDRESS_LEVEL",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_TP_ADDRESS_LEVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_ADDRESS",
+			"idRealObject": " M4GLB_TP_ADDRESS_LEVEL_ORIGEN",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_TP_ADDRESS_LEVEL|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4CCL_CAMPOS_TIPO_RH",
+			"idPkField": " CCL_ID_ORIGEN|CCL_ID_CAMPO|STD_ID_HR_TYPE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_CAMPOS",
+			"idPkField": " CCL_ID_CAMPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_CAMPOS_GRUPO",
+			"idPkField": " CCL_ID_GRUPO|CCL_ID_CAMPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_CAMPOS_TAB_GENERICA",
+			"idPkField": " CCL_ID_TABLA_GEN|CCL_OR_CAMPO_GENERICO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_CLAV_TAB_GENERICA",
+			"idPkField": " CCL_ID_TABLA_GEN|CCL_OR_CLAVE_GENERICA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_GRUPOS_CAMPOS",
+			"idPkField": " CCL_ID_GRUPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_MODULO_TABLAS",
+			"idPkField": " CCL_ID_MODULO_TABLAS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_MOTIVOS_CAMBIO",
+			"idPkField": " CCL_ID_TABLA_MOT_CAMBIO|CCL_ID_MOT_CAMBIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_ORIGEN_CAMPOS",
+			"idPkField": " CCL_ID_ORIGEN|CCL_ID_CAMPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_ORIGEN_TABLAS",
+			"idPkField": " CCL_ID_ORIGEN|CCL_ID_TABLA_GEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_PERFILES_LOCALES",
+			"idPkField": " CCL_ID_PERFIL_LOCAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_PERMISOS_TABLA_CAM",
+			"idPkField": " CCL_ID_PERFIL_LOCAL|CCL_ID_TABLA_MOT_CAMBIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_PERMISOS_TABLA_GEN",
+			"idPkField": " CCL_ID_PERFIL_LOCAL|CCL_ID_TABLA_GEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_PERMISOS_TABLA_REF",
+			"idPkField": " CCL_ID_PERFIL_LOCAL|CCL_ID_TABLA_REF",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_REGLAS_VALIDACION",
+			"idPkField": " CCL_ID_REGLA_VALIDACION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_ROLES_PERFIL",
+			"idPkField": " CCL_ID_PERFIL_LOCAL|ID_APP_ROLE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_TABLA_GENERICAS",
+			"idPkField": " CCL_ID_TABLA_GEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_TABLAS_MOTIVOS_CAMBIO",
+			"idPkField": " CCL_ID_TABLA_MOT_CAMBIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_TABLAS_REFERENCIA",
+			"idPkField": " CCL_ID_TABLA_REF",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_VAL_TABLA_GEN",
+			"idPkField": " CCL_ID_TABLA_GEN|CCL_ID_ORIGEN|CCL_CLAVE_COMPUESTA|DT_START",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_VAL_TABLA_REF",
+			"idPkField": " CCL_ID_TABLA_REF|CCL_ID_ORIGEN|CCL_ID",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_X_TIPO_CAMPO",
+			"idPkField": " CCL_ID_TIPO_CAMPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_X_TIPO_SOCIETARIO",
+			"idPkField": " CCL_ID_TIPO_SOCIETARIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_X_TIPO_TEMPORALIDAD",
+			"idPkField": " CCL_ID_TIPO_TEMPORALIDAD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_X_TIPO_VALIDACION",
+			"idPkField": " CCL_ID_TIPO_VAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CAMPOS_FLEX",
+			"idRealObject": " M4GLB_X_TIPO_VINCULACION",
+			"idPkField": " CCL_ID_TIPO_VINCULACION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CICLO_NOMINA",
+			"idRealObject": " M4CCL_HT_PAYS",
+			"idPkField": " ID_ORGANIZATION|SCO_DT_ACCRUED|SCO_ID_PAY_FREQ",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CICLO_NOMINA",
+			"idRealObject": " M4CCL_PAYS",
+			"idPkField": " ID_ORGANIZATION|SCO_MONTH|SCO_DAY|SCO_ID_PAY_FREQ",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CICLO_NOMINA",
+			"idRealObject": " M4GLB_CONF_RESOLUCION_COLEC",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_CALCULO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CICLO_NOMINA",
+			"idRealObject": " M4GLB_PROC_CALC_COLECTIVO",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CALCULO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CICLO_NOMINA",
+			"idRealObject": " M4GLB_PY_CY_PROC_ORIG_PAY_TYP",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_PAY_CY_PROCESS|SCO_ID_PAY_TYPE|GLB_ID_COLECTIVO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CICLO_NOMINA",
+			"idRealObject": " M4GLB_PY_CY_PROCESS_ORIG",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_PAY_CY_PROCESS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CICLO_NOMINA",
+			"idRealObject": " M4GLB_PY_CY_PROCESS_ORIG_STAT",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_DT_REF|GLB_ID_FREQ|GLB_ID_PAY_CY_PROCESS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CICLO_NOMINA",
+			"idRealObject": " M4GLB_PY_CY_PROCESS_REL_H",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_PAY_CY_PROCESS_P|GLB_ID_COLECTIVO|GLB_ID_PAY_CY_PROCESS_H",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CICLO_NOMINA",
+			"idRealObject": " M4GLB_PY_CY_PROCESSES",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_PAY_CY_PROCESS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CICLO_NOMINA",
+			"idRealObject": " M4GLB_PY_CYCLE",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_DT_REF|GLB_ID_FREQ",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CICLO_NOMINA",
+			"idRealObject": " M4GLB_PY_PROC_ORIG_COL_CYCLE",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_PAY_CY_PROCESS|GLB_ID_COLECTIVO|GLB_CY_COLECTIVO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CICLO_NOMINA",
+			"idRealObject": " M4GLB_PY_PROC_ORIG_COL_TPCAL",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_PAY_CY_PROCESS|GLB_ID_COLECTIVO|GLB_ID_TP_CAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CICLO_NOMINA",
+			"idRealObject": " M4GLB_X_COLECTIVOS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_COLECTIVO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_11_X_TIPO_MOV",
+			"idPkField": " CCL_ID_TP|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_COD_POSTAL",
+			"idPkField": " STD_ID_COUNTRY|STD_ID_GEO_DIV|STD_ID_SUB_GEO_DIV|STD_ID_GEO_PLACE|CCL_COD_POSTAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_CONF_NO_CAMBIO_CONT",
+			"idPkField": " CCL_ID_CADENA|CCL_ID_TP_CONTRATO|CCL_ID_TP_CONTRATO_DEST|CCL_ID_MOT_CONTR|CCL_ID_MOT_CONTR_DEST|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_CONF_REALIZAR_PRORROGAS",
+			"idPkField": " CCL_ID_CADENA|CCL_ID_TP_CONTRATO|CCL_ID_MOT_CONTR|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_HIRE_CLON_PAR",
+			"idPkField": " SCO_ID_T3|SCO_ID_STEP|ID_ITEM|SCO_ID_HR_TYPE|CCL_ID_ORIGEN|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_HR_TP_HIRE_S",
+			"idPkField": " SCO_ID_T3|SCO_ID_STEP|SCO_ID_HR_TYPE|CCL_ID_ORIGEN|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_TP_CONT_CONT",
+			"idPkField": " CCL_ID_TP_CONTRATO|CCL_INDEFINIDO|CCL_TIEMPO_PARCIAL|SSP_ID_CONT_INTERN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_TP_CONTRATO",
+			"idPkField": " CCL_ID_TP_CONTRATO|CCL_INDEFINIDO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_TP_MOTIVO_BAJA",
+			"idPkField": " ID_ORGANIZATION|STD_ID_HRP_END_REA|CCL_DT_START",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_X_MOT_ASIG_POS",
+			"idPkField": " CCL_ID_MOTIVO_ASIG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_X_NIVEL_FORMATIVO_SEPE",
+			"idPkField": " ID_NIVEL_FORMATIVO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_X_TITULAC_ACADEM_SEPE",
+			"idPkField": " ID_TITULACION_ACADEMICA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_X_TP_CONTRATACION",
+			"idPkField": " SSP_ID_TP_CONTRATACION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4CCL_X_TP_JORNADA_TM_PAR",
+			"idPkField": " CCL_TP_JORNADA_TM_PAR",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_AGRUP_CAD_SECC",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_AGRUPACION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_CLASIFICACION_END_REASON",
+			"idPkField": " ID_ORGANIZATION|STD_ID_HRP_END_REA|GLB_ID_CLASIFICACION|GLB_ID_TP_CLASIFICACION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_COMB_COMP",
+			"idPkField": " GLB_ID_COMBINACION|GLB_ID_COMPONENTE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_COMB_ORIGEN",
+			"idPkField": " GLB_ID_COMBINACION|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_DMD_ASSOCIATION_PY_DMD",
+			"idPkField": " ID_ORGANIZATION|ID_SYNONYM",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_LITERAL_TGT",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_JOB_TGT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_LU_TP_DOC_SECUR",
+			"idPkField": " ID_ORGANIZATION|SSP_ID_TP_DOC|CCL_ID_ORIGEN|GLB_ID_ROL_FUNCIONAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_ORIGEN_PARAM",
+			"idPkField": " ID_PROCESO|GLB_ID_PARAM|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_PAIS_SIL_TP_RH",
+			"idPkField": " ID_ORGANIZATION|PAIS|CCL_ID_ORIGEN|STD_ID_HR_TYPE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_PARAM_CONS",
+			"idPkField": " ID_PROCESO|GLB_ID_PARAM",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_PY_ATTRIBUTES_CONDITION",
+			"idPkField": " GLB_ID_ATRIBUTE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_SALARY_LEVEL",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_SAL_LEV",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_SF_AGRUPACIONES_AP",
+			"idPkField": " ID_AGRUPADOR",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_SF_HCO_SOLICIT_AP_CONFIG",
+			"idPkField": " ID|ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_SF_SOLICITUDES_AP_CONFIG",
+			"idPkField": " ID",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_SF_SOLICITUDES_AP_VAR",
+			"idPkField": " ID_FLUJO|ID_VARIABLE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_X_AGREEMENT",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_AGREEMENT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_X_AGRUP_ORIG",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_AGRUPACION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_X_BANKS",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_BANK",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_X_CATEGORIES",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CATEGORY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_X_COMBINACIONES",
+			"idPkField": " GLB_ID_COMBINACION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_X_COMPONENTES",
+			"idPkField": " GLB_ID_COMPONENTE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_X_CONTRATO_ATRIB_VAL",
+			"idPkField": " ID_ORGANIZATION|SSP_ID_ATRIBUTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_X_DUR_PER_PRUEBA",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_DUR_PER_PRUEBA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_X_FUNCIONALIDADES",
+			"idPkField": " GLB_ID_FUNCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_X_LEVELS",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_LEVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_X_MOT_SUST",
+			"idPkField": " GLB_ID_MOT_SUST|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_X_MOTIVOS_DESPLAZA",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_MOT_DES|GLB_ID_TP_OPC",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4GLB_X_TP_CAMBIO_JOR",
+			"idPkField": " GLB_ID_TP_CAMB_JORN|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4SCO_COMPANY_BANK",
+			"idPkField": " ID_ORGANIZATION|SCO_ID_COMP_BANK",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4SCO_DAYCALEN_TP",
+			"idPkField": " SCO_ID_DAYCALEN_TY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4SCO_HIRE_STEPS",
+			"idPkField": " SCO_ID_T3|SCO_ID_STEP|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4SCO_HIRE_T3S",
+			"idPkField": " SCO_ID_T3|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4SCO_RK_SUBCONTRA",
+			"idPkField": " SCO_ID_SUBCONT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4SSP_CENTR_COSTO",
+			"idPkField": " SSP_ID_CENT_COSTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4SSP_CONTRATO_INT",
+			"idPkField": " SSP_ID_CONT_INTERN|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4SSP_LU_HRP_MOT_B",
+			"idPkField": " ID_ORGANIZATION|SSP_ID_HRP_MOT_BAJ",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4SSP_LU_TP_DOC",
+			"idPkField": " SSP_ID_TP_DOC",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4WSI_SERV_REST_CONFIG",
+			"idPkField": " ID_SERVICE|ID_PK",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " M4WSI_SERV_REST_SERVICES",
+			"idPkField": " ID_SERVICE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " STD_DISABILITIES",
+			"idPkField": " STD_ID_DISABILITY|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " STD_GEO_DIV",
+			"idPkField": " STD_ID_COUNTRY|STD_ID_GEO_DIV",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " STD_GEO_PLACE",
+			"idPkField": " STD_ID_COUNTRY|STD_ID_GEO_DIV|STD_ID_SUB_GEO_DIV|STD_ID_GEO_PLACE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " STD_LU_DIS_GRADE",
+			"idPkField": " STD_ID_DIS_GRADE|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " STD_LU_EDU_DIPLOMA",
+			"idPkField": " STD_ID_DIPLOMA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " STD_LU_HR_TYPE",
+			"idPkField": " STD_ID_HR_TYPE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " STD_LU_HRP_END_RE",
+			"idPkField": " ID_ORGANIZATION|STD_ID_HRP_END_REA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_CONF",
+			"idRealObject": " STD_SUB_GEO_DIV",
+			"idPkField": " STD_ID_COUNTRY|STD_ID_GEO_DIV|STD_ID_SUB_GEO_DIV",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_FICH_TS",
+			"idRealObject": " M4GLB_TS_CAMPOS_FIJOS",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CAMPO_FIJO|GLB_ID_CFG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_FICH_TS",
+			"idRealObject": " M4GLB_TS_CAMPOS_FIJOS_ORIGEN",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CAMPO_FIJO|GLB_ID_CFG|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_FICH_TS",
+			"idRealObject": " M4GLB_TS_CLAVES_COLUMNA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_CFG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_FICH_TS",
+			"idRealObject": " M4GLB_TS_CLAVES_CPTO",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_CFG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_FICH_TS",
+			"idRealObject": " M4GLB_TS_CLAVES_ORIGEN",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_CFG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_FICH_TS",
+			"idRealObject": " M4GLB_TS_COLUMNA_TYPE",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_COLUM_TYPE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_FICH_TS",
+			"idRealObject": " M4GLB_TS_COLUMNAS_ORIGEN",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_CFG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_FICH_TS",
+			"idRealObject": " M4GLB_TS_COMPLEX_COMPONENTS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_CFG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_FICH_TS",
+			"idRealObject": " M4GLB_TS_CONFIGURACION",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_CFG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_FICH_TS",
+			"idRealObject": " M4GLB_TS_GLOBAL_CFG",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CFG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_FICH_TS",
+			"idRealObject": " M4GLB_TS_TIPOS_CLAVE",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_TP_CLAVE|CCL_ID_ORIGEN|GLB_ID_CFG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_ASSIGN_OBJND_CAPSULE",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CONFIGURATION|GLB_ID_APP|GLB_ID_FUNC_PROC|GLB_ID_FUNC_STEP|GLB_ID_T3|GLB_ID_NODE|GLB_ID_APPLY_METHOD|GLB_ID_CAPSULE|GLB_ID_VERSION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_CODE_CAPSULE",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CAPSULE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_GATE_OBJND",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CONFIGURATION|GLB_ID_APP|GLB_ID_FUNC_PROC|GLB_ID_FUNC_STEP|GLB_ID_T3|GLB_ID_NODE|GLB_ID_VERSION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_GATE_OBJND_TO_METHOD",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CONFIGURATION|GLB_ID_APP|GLB_ID_FUNC_PROC|GLB_ID_FUNC_STEP|GLB_ID_T3|GLB_ID_NODE|GLB_ID_APPLY_METHOD|GLB_ID_VERSION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_GTO_INCP_FLOWS",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CONFIGURATION|GLB_ID_APP|GLB_ID_FUNC_PROC|GLB_ID_FUNC_STEP|GLB_ID_INTERFAZ_T3|GLB_ID_INTERFAZ_NODE|GLB_ID_FLUJO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_GTO_INTERFAZ_NODES",
+			"idPkField": " GLB_ID_CONFIGURATION|GLB_ID_APP|GLB_ID_FUNC_PROC|GLB_ID_FUNC_STEP|GLB_ID_INTERFAZ_T3|GLB_ID_INTERFAZ_NODE|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_GTO_NODE_RW_RIGHTS",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CONFIGURATION|GLB_ID_APP|GLB_ID_FUNC_PROC|GLB_ID_FUNC_STEP|GLB_ID_INTERFAZ_T3|GLB_ID_INTERFAZ_NODE|GLB_ID_ROL_FUNCIONAL|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_GTO_OPERATIVE_ORIGINS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_APP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_GTO_ORIGIN_CONFIG",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CONFIGURATION|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_GTO_RW_NODES",
+			"idPkField": " GLB_ID_CONFIGURATION|GLB_ID_APP|GLB_ID_FUNC_PROC|GLB_ID_FUNC_STEP|GLB_ID_INTERFAZ_T3|GLB_ID_INTERFAZ_NODE|GLB_ID_INTERFAZ1|GLB_ID_RW_NODE|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_GTO_RW_NODES_TABLES",
+			"idPkField": " GLB_ID_INTERFAZ1|GLB_ID_RW_NODE|ID_OBJECT|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_GTO_X_CONFIGURATIONS",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CONFIGURATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_ORIGIN_APPLY_CAPSULE",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CAPSULE|CCL_ID_ORIGEN|GLB_ID_VERSION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_X_CONF_PROC",
+			"idPkField": " GLB_PROCESS|GLB_APP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_X_CONF_PROC_STEP",
+			"idPkField": " GLB_PROCESS|GLB_APP|GLB_STEP|GLB_ROLE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_GTO",
+			"idRealObject": " M4GLB_X_CONF_PROC_STEP_RULE",
+			"idPkField": " GLB_PROCESS|GLB_APP|GLB_STEP|GLB_ROLE|GLB_RULE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_AGRUP",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_AGRUP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_AGRUP_MVMT",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_AGRUP|GLB_ID_TP_MVMT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_CONFIG_METH_EXP",
+			"idPkField": " ID_ORGANIZATION|GLB_ORDINAL|CCL_ID_ORIGEN|GLB_ID_FILE|CCL_NM_PARAMETER|GLB_ID_COLECTIVO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_CONFIG_METH_GEN",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_MVMT|GLB_ORDINAL|ID_T3|ID_TI|ID_ITEM",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_CONF_COLS_MVMT",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ORDINAL|GLB_ID_TP_MVMT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_CONFIG_COLS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_CONFIG_FILE",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_CONFIG_METH",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_CONFIG_OBJS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_CONFIG_ROWS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_FAMILY_FILE",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ID_MVMT_FAM",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_MVMT_FAM_ORIG",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ID_MVMT_FAM|GLB_ID_TP_MVMT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_MVMT_FAMILY",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_MVMT_FAM",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_UNION",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ID_UNION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_UNION_CAD",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ID_UNION|CCL_ID_UNIDAD_NEG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_UNION_DETAIL",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ID_UNION|GLB_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_UNION_LE",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ID_UNION|STD_ID_LEG_ENT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_UNION_NAME",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ID_UNION|GLB_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXP_UNION_ORIG",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ID_UNION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_EXT_PROV_ORIG",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_EXT_PROV",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_FILE_CY_PROCESS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ID_PAY_CY_PROCESS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_FILE_EXT_PROV",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_EXT_PROV|GLB_ID_FILE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_FILES_ORIG",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_FLDS",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_CAMPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_MVMT_FILE",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_FILE|GLB_ID_TP_MVMT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_MVMT_FILE_EXC",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_MVMT|GLB_ID_GROUP|GLB_ID_CAMPO|GLB_ORDINAL|GLB_ID_COLECTIVO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_TP_MVMT_ORIG",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_MVMT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_TPM_DEFVAL_LE",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_MVMT|STD_ID_LEG_ENT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_TPM_DEFVAL_ORIG",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_MVMT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_TPM_FILTER",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_MVMT|GLB_ID_ITEM_FIL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_TPM_FILTER_VALUES",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_MVMT|GLB_ID_ITEM_FIL|GLB_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_TPM_FLDS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_MVMT|GLB_ID_CAMPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_TPM_FLDS_EXP",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_MVMT|GLB_ID_CAMPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_TPM_METH",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_MVMT|GLB_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_TPM_METH_ARGS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_MVMT|GLB_ORDINAL|GLB_ID_ARGUMENT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_TPM_OBJS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_MVMT|GLB_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_TPM_VALUES",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_MVMT|GLB_ID_CAMPO|GLB_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_X_FILES",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_FILE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_MF_X_TP_MVMT",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_TP_MVMT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_MVTS_FICH",
+			"idRealObject": " M4GLB_PY_PROCESO",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_TP_PROC",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_SEMAF",
+			"idRealObject": " M4GLB_PLANTILLA_MOTOR_VIS",
+			"idPkField": " ID_FLUJO|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_SEMAF",
+			"idRealObject": " M4GLB_PLANTILLA_VIS",
+			"idPkField": " ID_FLUJO|CCL_ID_ORIGEN|GLB_ID_ROL_FUNCIONAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_TEMPLATES",
+			"idRealObject": " M4GLB_MAP_FIELD_ITEM",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_PDF_TEMPLATE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_TEMPLATES",
+			"idRealObject": " M4GLB_PDF_FIELDS",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_PDF_TEMPLATE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_TEMPLATES",
+			"idRealObject": " M4GLB_PDF_TEMPLATE",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_PDF_TEMPLATE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PA_TEMPLATES",
+			"idRealObject": " M4GLB_PDF_TEMPLATE_TP_DOCUM",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_PDF_TEMPLATE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PAGE",
+			"idRealObject": " M4RTC_ITEM_ARG_DEP",
+			"idPkField": " ID_PAGE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PAGE",
+			"idRealObject": " M4RTC_ITEMS_DEP",
+			"idPkField": " ID_PAGE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PAGE",
+			"idRealObject": " M4RTC_META4OBJ_DEP",
+			"idPkField": " ID_PAGE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PAGE",
+			"idRealObject": " M4RTC_NODES_DEP",
+			"idPkField": " ID_PAGE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PAGE",
+			"idRealObject": " M4RTC_PAGES",
+			"idPkField": " ID_PAGE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PAR_DINAMIC",
+			"idRealObject": " M4RBP__PAR_DINAM1",
+			"idPkField": " ID",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": " M4RBP__PAR_DINAMIC"
+		},
+		{
+			"idClass": " PAR_DINAMIC",
+			"idRealObject": " M4RBP__PAR_DINAMIC",
+			"idPkField": " ID",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PESADA",
+			"idRealObject": " M4PRL_AUX_FIRMA_CADENA",
+			"idPkField": " CCL_ID_CADENA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PESADA",
+			"idRealObject": " M4PRL_AUX_FIRMA_EMPRESA",
+			"idPkField": " STD_ID_LEG_ENT|PRL_ID_TIPO_FIRMA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PESADA",
+			"idRealObject": " M4PRL_H_TECNICOS_PRL_CADENA",
+			"idPkField": " CCL_ID_CADENA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PI TEMPLATES",
+			"idRealObject": " M4RCH_PI_IMP_TMPL",
+			"idPkField": " ID_TEMPLATE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PI TEMPLATES",
+			"idRealObject": " M4RCH_PI_TEMPLATES",
+			"idPkField": " ID_TEMPLATE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PI TEMPLATES",
+			"idRealObject": " M4RCH_PI_TMPL_COMP",
+			"idPkField": " ID_TEMPLATE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PRESENTATION",
+			"idRealObject": " M4RCH_MD_VERSION",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PRESENTATION",
+			"idRealObject": " M4ROBOT_LOG",
+			"idPkField": " ID_PRESENTATION",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PRESENTATION",
+			"idRealObject": " M4RPT_DOCU_PRES",
+			"idPkField": " IDPRESENTATION",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PRESENTATION",
+			"idRealObject": " M4RPT_PRES_INHERIT",
+			"idPkField": " ID_PRES",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PRESENTATION",
+			"idRealObject": " M4RPT_PRES_STYLE",
+			"idPkField": " ID_PRESENTATION",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PRESENTATION",
+			"idRealObject": " M4RPT_PRESENT_PKG",
+			"idPkField": " ID_PRESENTATION",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PRESENTATION",
+			"idRealObject": " M4RPT_PRESENT_USE",
+			"idPkField": " ID_PRESENTATION",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PRESENTATION",
+			"idRealObject": " M4RPT_PRESENTATION",
+			"idPkField": " ID_PRESENTATION",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PRESENTATION",
+			"idRealObject": " M4RPT_UNIT_GROUP",
+			"idPkField": " ID_PRESENTATION",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PRESENTATION",
+			"idRealObject": " SPR_DIN_PRESENTS",
+			"idPkField": " ID_PRESENTATION_I",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_FLUJOS_MOTIVOS_DENEG",
+			"idPkField": " ID_FLUJO|ID_MOTIVO_DENEG|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_FORMULARIOS_XML",
+			"idPkField": " ID_FORMULARIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_OUTPUT_ITEM_ATRIB",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_OUTPUT_ITEM_MAP",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_OUTPUT_NODE_ATRIB",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_OUTPUT_NODE_MAP",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_ACCIONES",
+			"idPkField": " ID_PROCESO|ID_ACCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_ACCIONES_DES",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_APLICACIONES",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_CALC",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_CARACT",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_ERR",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_FORMULARIOS",
+			"idPkField": " ID_PROCESO|ID_FORMULARIO|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_INPUTS",
+			"idPkField": " ID_PROCESO|ID_INPUT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_INPUTS_ATRIB",
+			"idPkField": " ID_PROCESO|ID_INPUT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_INPUTS_COL",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_INPUTS_COL_ATRIB",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_OUTPUT",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_PAISES",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_PREINPUTS",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_PREINPUTS_ATRIB",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_ROL_FUNC",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_VAR",
+			"idPkField": " ID_PROCESO|ID_VARIABLE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROC_VAR_FLUJO",
+			"idPkField": " ID_FLUJO|ID_PROCESO|ID_VARIABLE|ID_ELEMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4MPR_PROCESOS",
+			"idPkField": " ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROCESO",
+			"idRealObject": " M4WSI_X_FOR_CAL",
+			"idPkField": " ID_FOR_CAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROJECT_TASK_PARAM",
+			"idRealObject": " M4RBP__PAR_DINAMIC",
+			"idPkField": " ID",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " PROJECT_TASK_PARAM",
+			"idRealObject": " M4RDM_OS_PROJ_MEMS",
+			"idPkField": " ID_INSTANCE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " QUERY",
+			"idRealObject": " M4RDC_SCENARIO_ADD_T3",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_CNT_FL_ND_DP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_CNT_FLD_DEP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_CNT_NODE_DEP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_CONTAI_DEP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_EMISSION",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_EXECUTION_TP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_FAMILY_SECTS",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_FILE_GRAPH",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_LONG_EXPRES",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_PAG_FLD_DEP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_PAG_FLD_PROP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_PAGE_PROPS",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_PG_FLD_ND_DP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_REPORT_CODE",
+			"idPkField": " ID_REPORT_ODBC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_REPORT_COLOR",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_REPORT_DEP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_REPORT_FONTS",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_REPORT_PAGS",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_REPORT_PROP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_REPORT_SECTS",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_REPORT_STR",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_REPORTS",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_REPRT_FRMTS",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_REPRTS_ODBC",
+			"idPkField": " ID_REPORT_ODBC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_RPT_CT",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_RPT_CT_PROPS",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_RPT_JT_CLNT",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_RPT_NODE_DEP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_RPT_SEC_PROP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_SC_CNTFLDPRP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_SEC_CON_PRO",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_SECT_CON_FLD",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_SECT_CONTAIN",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_SECTION_DEP",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REPORT",
+			"idRealObject": " M4RRP_SECTION_NODE",
+			"idPkField": " ID_REPORT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " REST SERVICE",
+			"idRealObject": " M4RCH_REST_SERV",
+			"idPkField": " ID_REST_SERVICE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ROL_FUNCIONAL",
+			"idRealObject": " M4CCL_MASK_ENTIDADES",
+			"idPkField": " ID_ORGANIZATION|ID_ENTIDAD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ROL_FUNCIONAL",
+			"idRealObject": " M4CCL_MASK_ENTIDADES_REL",
+			"idPkField": " ID_ORGANIZATION|ID_ENTIDAD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ROL_FUNCIONAL",
+			"idRealObject": " M4GLB_ROL_FUNCIONAL",
+			"idPkField": " GLB_ID_ROL_FUNCIONAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ROL_FUNCIONAL",
+			"idRealObject": " M4GLB_ROL_FUNCIONAL_ENTIDAD",
+			"idPkField": " GLB_ID_ROL_FUNCIONAL|ID_ENTIDAD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " ROL_FUNCIONAL",
+			"idRealObject": " M4GLB_ROL_FUNCIONAL_MODULO",
+			"idPkField": " GLB_ID_ROL_FUNCIONAL|ATR_ID_MODULO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " RSM",
+			"idRealObject": " M4RSC_RSM",
+			"idPkField": " ID_RSM",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " RULE TEMPLATE",
+			"idRealObject": " M4RCH_PI_TMPL_RULE",
+			"idPkField": " ID_TMPL_RULE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SALDOS_CONF",
+			"idRealObject": " M4GLB_SLD_ATTRIBUTES_CONDITION",
+			"idPkField": " GLB_ID_ATTRIBUTE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SALDOS_CONF",
+			"idRealObject": " M4GLB_SLD_ITEMS",
+			"idPkField": " GLB_ID_SALDO|ID_TI|ID_ITEM|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SALDOS_CONF",
+			"idRealObject": " M4GLB_SLD_NODOS_LECTURA",
+			"idPkField": " GLB_ID_SALDO|ID_NODE|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SALDOS_CONF",
+			"idRealObject": " M4GLB_SLD_PROCESOS",
+			"idPkField": " GLB_SLD_ID_PROC|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SALDOS_CONF",
+			"idRealObject": " M4GLB_SLD_RULE_COND_ATTRIB",
+			"idPkField": " GLB_ID_SALDO|GLB_ID_RULE|GLB_ID_CONDITION|GLB_ID_ATTRIBUTE|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SALDOS_CONF",
+			"idRealObject": " M4GLB_SLD_TP_EJECUCION",
+			"idPkField": " GLB_ID_SALDO|GLB_ID_TP_EJECUCION|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SALDOS_CONF",
+			"idRealObject": " M4GLB_SLD_TP_SALDOS",
+			"idPkField": " GLB_ID_SALDO|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SALDOS_CONF",
+			"idRealObject": " M4GLB_SLD_X_RULE_CONDITIONS",
+			"idPkField": " GLB_ID_SALDO|GLB_ID_RULE|GLB_ID_CONDITION|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SALDOS_CONF",
+			"idRealObject": " M4GLB_SLD_X_RULES_DEF",
+			"idPkField": " GLB_ID_SALDO|GLB_ID_RULE|ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SCENARIO",
+			"idRealObject": " M4RDC_GR_OB_PA_REL",
+			"idPkField": " ID_GROUP_OBJECTS",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SCENARIO",
+			"idRealObject": " M4RDC_GR_PA_RL_FLD",
+			"idPkField": " ID_GROUP_OBJECTS",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SCENARIO",
+			"idRealObject": " M4RDC_GROUP_OBJS",
+			"idPkField": " ID_GROUP_OBJECTS",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SCENARIO",
+			"idRealObject": " M4RDC_GRP_OBJ_PATH",
+			"idPkField": " ID_GROUP_OBJECTS",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY",
+			"idRealObject": " M4RDC_SEC_LOBJ",
+			"idPkField": " ID_RSM|ID_OBJECT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY",
+			"idRealObject": " M4RDC_SEC_LOBJ_F1",
+			"idPkField": " ID_RSM|ID_OBJECT|ID_SOURCE_OBJ|ID_USE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY",
+			"idRealObject": " M4RDC_SEC_LOBJ_FIL",
+			"idPkField": " ID_RSM|ID_OBJECT|ID_SOURCE_OBJ|ID_USE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY",
+			"idRealObject": " M4RDC_SEC_RELATION",
+			"idPkField": " ID_RSM|ID_OBJECT|ID_SOURCE_OBJ|ID_USE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY BP",
+			"idRealObject": " M4RBP_APPROLE",
+			"idPkField": " ID_BP",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY LT",
+			"idRealObject": " M4RDC_SEC_FIELDS",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY LT",
+			"idRealObject": " M4RDC_SEC_LOBJ",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY LT",
+			"idRealObject": " M4RDC_SEC_LOBJ_FIL",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY LT",
+			"idRealObject": " M4RDC_SEC_RELATION",
+			"idPkField": " ID_OBJECT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY M4O",
+			"idRealObject": " M4RCH_FILTER_MASK",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY M4O",
+			"idRealObject": " M4RCH_ITEM_MASK",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY M4O",
+			"idRealObject": " M4RCH_MD_VERSION",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY M4O",
+			"idRealObject": " M4RCH_NODE_MASK",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY M4O",
+			"idRealObject": " M4RCH_T3_CON_MASK",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY M4O",
+			"idRealObject": " M4RCH_T3_MASK",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY M4O",
+			"idRealObject": " M4RCH_T3_RSM",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SECURITY M4O",
+			"idRealObject": " M4RCH_TI_MASK",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SENTENCE",
+			"idRealObject": " M4RCH_SENTENCES",
+			"idPkField": " ID_SENTENCE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SERVICIO",
+			"idRealObject": " M4RCH_BO_MET_ARG",
+			"idPkField": " ID_METHOD|ID_T3|ID_ARGUMENT_NODE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SERVICIO",
+			"idRealObject": " M4RCH_BO_METHOD",
+			"idPkField": " ID_METHOD|ID_T3",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SERVICIO",
+			"idRealObject": " M4RCH_BO_SERVICE",
+			"idPkField": " ID_T3",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SERVICIO_REST",
+			"idRealObject": " M4CSP_HTTP_HEADERS",
+			"idPkField": " CSP_ID_SERVICE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SERVICIO_REST",
+			"idRealObject": " M4CSP_REST_SERVICE",
+			"idPkField": " CSP_ID_SERVICE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SERVICIO_REST",
+			"idRealObject": " M4CSP_REST_TEST_PARAMS",
+			"idPkField": " CSP_ID_SERVICE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SERVICIO_REST",
+			"idRealObject": " M4RCH_REST_BPMATCH",
+			"idPkField": " ID_REST_SERVICE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SERVICIO_REST",
+			"idRealObject": " M4RCH_REST_SERV ",
+			"idPkField": " ID_REST_SERVICE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " SERVICIO_REST_CONF",
+			"idRealObject": " M4GLB_TABLA_GENERAL_DEFINICION",
+			"idPkField": " ID_CONSULTA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " CCL_WLOCAT_FP_TA",
+			"idPkField": " CCL_ID_ORIGEN|CCL_ID_WL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_ABSENCES_TA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|CCL_ID_ABSENCE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_ABSENCES_TA_CAMPOS",
+			"idPkField": " CCL_ID_GRUPO|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_ABSENCES_TA_DOC",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ABSENCE|CCL_ID_ORIGEN|ID_TP_DOCUMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_ABSENCES_TA_FLUJOS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ABSENCE|CCL_ID_ORIGEN|ID_FLUJO|GLB_ID_ROL_FUNCIONAL|ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_ABSENCES_TA_GRUPOS",
+			"idPkField": " CCL_ID_GRUPO|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_ABSENCES_TA_GRUPOS_CAMPO",
+			"idPkField": " CCL_ID_GRUPO|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_COLORS_TA",
+			"idPkField": " CCL_ID_COLOR",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_CONTROL_ORIGEN_TA",
+			"idPkField": " OBJETO|CCL_ID_ORIGEN|PROPIEDAD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_DAYS_STATUS",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_DUMP_CONF_TA",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_GI_X_INFORMES",
+			"idPkField": " CCL_ID_INFORME",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_H_CUPOS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_CUPO|CCL_STD_ID_LEG_ENT|CCL_DT_START",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_H_PERMISOS",
+			"idPkField": " ID_ORGANIZATION|CCL_STD_ID_LEG_ENT|CCL_ID_PERMISO|CCL_DT_START",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_H_PERMISOS_DOC",
+			"idPkField": " ID_ORGANIZATION|STD_ID_LEG_ENT|CCL_ID_PERMISO|ID_TP_DOCUMENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_H_REGLAS",
+			"idPkField": " CCL_ID_REGLA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_HOLIDAY_COLORS_TA",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_HOUR_TASK_TA",
+			"idPkField": " ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_INCID_TEOR_TA_FLUJOS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_INCIDENCIA|CCL_ID_ORIGEN|ID_FLUJO|GLB_ID_ROL_FUNCIONAL|ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_INCIDENCIAS_TEOR_TA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|CCL_ID_INCIDENCIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_LOC_CLAS_ABS_TA",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_LOCK_TA",
+			"idPkField": " CCL_ID_ORIGEN|CCL_ID_ROL_FUNCIONAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_MGMT_TYPE_TA",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_MIN_REAL_TIME_TA",
+			"idPkField": " ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_MIN_THEOR_TIME_TA",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_OFFSET_TGT_TA",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_RGB_SHIFT_TA",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_SHIFT_GROUP_TA",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_SHIFTS_TA",
+			"idPkField": " CCL_ID_ORIGEN|CCL_ID_SHIFT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_SLOT_NUM_TA",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_SOURCE_INFO_TA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_SOURCE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_TASKS_TA",
+			"idPkField": " CCL_ID_ORIGEN|CCL_ID_TASK",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_TASKS_TA_CONF",
+			"idPkField": " CCL_ID_ORIGEN|CCL_ID_TASK",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_TASKS_TA_L",
+			"idPkField": " CCL_ID_ORIGEN|CCL_ID_TASK",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_TASKS_TA_L_AREA",
+			"idPkField": " CCL_ID_ORIGEN|CCL_ID_TASK",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_TASKS_TA_L_ZONA",
+			"idPkField": " CCL_ID_ORIGEN|CCL_ID_TASK",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_TASKS_TA_O",
+			"idPkField": " CCL_ID_ORIGEN|CCL_ID_TASK",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_TASKS_TA_T",
+			"idPkField": " CCL_ID_ORIGEN|CCL_ID_TASK",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_TIPOS_CAMPOS",
+			"idPkField": " CCL_ID_CAMPOS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_TIPOS_PERMISOS",
+			"idPkField": " CCL_ID_TIPO_PERMISO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_TOLERANCE_TA",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_TP_HORA_COMISION_TA",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_X_ACCIONES_TA",
+			"idPkField": " ID_ACCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4CCL_X_CONTROL_TA",
+			"idPkField": " OBJETO|PROPIEDAD",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_ABS_ROL_FUNC_TA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_SOURCE|GLB_ID_ROL_FUNCIONAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_ROL_FUNCIONAL_AUTO",
+			"idPkField": " GLB_ID_ROL_FUNCIONAL|GLB_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_ROL_FUNCIONAL_AUTO_ENT",
+			"idPkField": " GLB_ID_ROL_FUNCIONAL|GLB_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_ROUND_CONF_TA",
+			"idPkField": " ID_ORGANIZATION|GLB_ORD_ROUND|CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_RPT_ALMACEN_M4",
+			"idPkField": " ID_TP_INFORME",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_RPT_PARAMETROS",
+			"idPkField": " ID_TP_INFORME",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_RPT_SAL_INFORME",
+			"idPkField": " ID_TP_INFORME",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_RPT_SEG_INFORME",
+			"idPkField": " ID_TP_INFORME|ID_APLICACION|ID_MODULO|ID_ROL_FUNCIONAL|ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_RPT_TIPOS_INFORME",
+			"idPkField": " ID_TP_INFORME",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_SEQ_LOCAL",
+			"idPkField": " CCL_ID_ORIGEN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_TA_CONCEPTS_CONTROL_ROL",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_DMD_FUN_GROUP|CCL_ID_ROL_FUNCIONAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_TA_CONCEPTS_FORMULA",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_DMD_FUN_GROUP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_TA_CONCEPTS_FORMULA_VALO",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_DMD_FUN_GROUP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_TA_CONCEPTS_MAP",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_SALDO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_TA_CONCEPTS_X_VALOR",
+			"idPkField": " GLB_ID",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_TA_SALDO_CONTROL_ROL",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD_FUN_GROUP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_TA_SALDO_HISTORICOS",
+			"idPkField": " CCL_ID_ORIGEN|GLB_ID_DMD|GLB_ID_DMD_FUN_GROUP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4GLB_X_TIPO_DESPLAZAMIENTO",
+			"idPkField": " GLB_ID_TIPO_DESPLAZAMIENTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4SCO_CAL_INVOLVED",
+			"idPkField": " SCO_ID_DAY_CALENDA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4SCO_CALENDAR",
+			"idPkField": " SCO_ID_CALENDAR",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4SCO_CALENDAR_REP",
+			"idPkField": " SCO_ID_CALENDAR",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4SCO_DAY_CALENDAR",
+			"idPkField": " SCO_ID_DAY_CALENDA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4SCO_DAYCALEN_DEF",
+			"idPkField": " SCO_ID_DAY_CALENDA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4SCO_WC_VALUES",
+			"idPkField": " ID_ORGANIZATION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4WRP_ATRIB_INFORMES_TA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_INFORME",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4WRP_FRT_INFORMES_TA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_INFORME",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4WRP_INFORMES_TA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_INFORME",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4WRP_SORT_INFORMES_TA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_INFORME",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TA_CONTROL",
+			"idRealObject": " M4WRP_X_CAMPOS_TA",
+			"idPkField": " CCL_CAMPO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TEMPLATE FILES",
+			"idRealObject": " M4RCH_TEMPL_DOC",
+			"idPkField": " ID_TEMPLATE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TEMPLATE FILES",
+			"idRealObject": " SCH_TEMPLATE_FILES",
+			"idPkField": " ID_TEMPLATE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT MENU",
+			"idRealObject": " M4TGT_OPC_EMP_EMPL",
+			"idPkField": " CCL_ID_OPCION|CCL_ID_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT MENU",
+			"idRealObject": " M4TGT_OPC_EMP_PROV_EMPL",
+			"idPkField": " CCL_ID_OPCION|CCL_ID_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT MENU",
+			"idRealObject": " M4TGT_OPC_MENU",
+			"idPkField": " CCL_ID_OPCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT MENU",
+			"idRealObject": " M4TGT_OPC_TURNO_EMP",
+			"idPkField": " CCL_ID_OPCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT MENU",
+			"idRealObject": " M4TGT_OPC_TURNO_EMP_PROV",
+			"idPkField": " CCL_ID_OPCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT MENU",
+			"idRealObject": " M4TGT_OPC_TURNO_TIENDA",
+			"idPkField": " CCL_ID_OPCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT MENU",
+			"idRealObject": " M4TGT_ROLES_OPC_PERMISOS",
+			"idPkField": " CCL_ID_OPCION",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT TRADUCCIONES",
+			"idRealObject": " M4CCL_TRADUCCION_TGT",
+			"idPkField": " CCL_IDIOMA|CCL_ID_PAGINA|CCL_ID_ETIQUETA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONF_TIENDA",
+			"idRealObject": " M4CCL_AUX_MOT_BAJA",
+			"idPkField": " CCL_ID_MOT_BAJA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONF_TIENDA",
+			"idRealObject": " M4CCL_AUX_SUST_CON",
+			"idPkField": " CCL_ID_CONTRATO|CCL_ID_SUST_CONTR",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONF_TIENDA",
+			"idRealObject": " M4TGT_AUX_PREGUNTAS",
+			"idPkField": " CCL_ID_PREGUNTA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONF_TIENDA",
+			"idRealObject": " M4TGT_CONTRAT_EMPR",
+			"idPkField": " CCL_EMPRESA|CCL_FECHA_FIN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONF_TIENDA",
+			"idRealObject": " M4TGT_MOT_BAJA_PARAM",
+			"idPkField": " CCL_ID_MOT_BAJA|CCL_ID_TP_RETORNO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONF_TIENDA",
+			"idRealObject": " M4TGT_MOT_CMB_EMP",
+			"idPkField": " CCL_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONF_TIENDA",
+			"idRealObject": " M4TGT_MOT_CONT_PARAM",
+			"idPkField": " CCL_ID_SUST_CONTR|CCL_ID_CONTRATO|CCL_TIPO_MOV",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONF_TIENDA",
+			"idRealObject": " M4TGT_MOT_SUST_EMPR",
+			"idPkField": " CCL_ID_SUST_CONTR|CCL_ID_CONTRATO|CCL_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONF_TIENDA",
+			"idRealObject": " M4TGT_MOT_SUST_EMPR_PROV",
+			"idPkField": " CCL_ID_SUST_CONTR|CCL_ID_CONTRATO|CCL_EMPRESA|CCL_ID_PROVINCIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONF_TIENDA",
+			"idRealObject": " M4TGT_PREG_COMUNES",
+			"idPkField": " CCL_ID_PREGUNTA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONF_TIENDA",
+			"idRealObject": " M4TGT_PREG_EMPR",
+			"idPkField": " CCL_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONF_TIENDA",
+			"idRealObject": " M4TGT_PREG_PROVINCIA",
+			"idPkField": " CCL_ID_PROVINCIA|CCL_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONF_TIENDA",
+			"idRealObject": " M4TGT_PREG_TIENDA",
+			"idPkField": " CCL_ID_TIENDA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4CCL_AUX_CADENA",
+			"idPkField": " CCL_CADENA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4CCL_AUX_CONTRAT",
+			"idPkField": " CCL_ID_CONTRATO|CCL_FECHA_FIN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4CCL_AUX_DUR_CONT",
+			"idPkField": " CCL_ID_CONTRATO|CCL_ID_DUR_CONTR",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4CCL_AUX_TIENDAS",
+			"idPkField": " CCL_ID_TIENDA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4CCL_CONF_TRASPASO_RESTRIC",
+			"idPkField": " CCL_EMPRESA|CCL_COD_HORA|CCL_INCIDENCIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4CCL_PROCESOS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_PROCESO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4PRL_AUX_TIPO_FIRMA",
+			"idPkField": " PRL_ID_TIPO_FIRMA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4PRL_H_TECNICOS_PRL",
+			"idPkField": " CCL_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4PRL_X_OPCION_RIESGO",
+			"idPkField": " PRL_ID_OPCION_RIESGO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4PRL_X_TIPO_RIESGO",
+			"idPkField": " PRL_ID_TIPO_RIESGO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_AUX_AUS_LEGAL",
+			"idPkField": " CCL_ID_AUSENCIA|CCL_FEC_INICIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_AUX_CATEGORIAS_PRL",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_CATEGORIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_AUX_MOT_DES",
+			"idPkField": " CCL_ID_MOTI_DESP|CCL_ID_TIPO_DESP",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_AUX_PARAMETROS",
+			"idPkField": " ID_PARAMETRO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_AUX_PREGUNTAS_EMB",
+			"idPkField": " CCL_ID_PREGUNTA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_AUX_PUESTOS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_PUESTO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_AUX_TURNOS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_TURNO|CCL_ID_ORIGEN|CCL_FEC_INICIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_CONF_BORRADO_TABLAS_TEMP",
+			"idPkField": " ID_TABLA_SQL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_CONTRAT_EMPR_PROV",
+			"idPkField": " CCL_ID_CONTRATO|CCL_FECHA_FIN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_H_MNTO",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORDINAL|CCL_ID_PAIS|CCL_APLICACION|CCL_DT_START",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_H_TURNOS",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_TURNO|CCL_ID_ORIGEN|CCL_FEC_INICIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_MOT_DES_CAD",
+			"idPkField": " CCL_ID_MOTI_DESP|CCL_ID_TIPO_DESP|CCL_CADENA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_MOT_DES_EMP",
+			"idPkField": " CCL_ID_MOTI_DESP|CCL_ID_TIPO_DESP|CCL_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_MOT_DES_TIE",
+			"idPkField": " CCL_ID_MOTI_DESP|CCL_ID_TIPO_DESP|CCL_TIENDA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_PARAM_GLOBALES_EMPR_PROV",
+			"idPkField": " CCL_EMPRESA|PARAMETRO|CCL_ID_PROVINCIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_PARAM_GLOBALES_EMPRESA",
+			"idPkField": " CCL_EMPRESA|PARAMETRO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_PARAM_GLOBALES_TIENDA",
+			"idPkField": " CCL_ID_TIENDA|PARAMETRO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_PUESTOS_CAD",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_PUESTO|CCL_CADENA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_PUESTOS_EMP",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_PUESTO|CCL_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_REL_CADENAS",
+			"idPkField": " CCL_CADENA|CCL_CADENA_PERMIT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONFIGURACION",
+			"idRealObject": " M4TGT_TURNOS_PLAN",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_TURNO|CCL_ID_ORIGEN|CCL_FEC_INICIO|CCL_ORD_DIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONVENIO",
+			"idRealObject": " M4TGT_AUX_CONVENIOS",
+			"idPkField": " CCL_ID_CONVENIO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONVENIO",
+			"idRealObject": " M4TGT_H_CONVENIO_EMPR",
+			"idPkField": "  CCL_ID_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CONVENIO",
+			"idRealObject": " M4TGT_H_CONVENIO_EMPR_PROV",
+			"idPkField": " CCL_ID_EMPRESA|CCL_ID_PROVINCIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CUESTIONARIO",
+			"idRealObject": " M4TGT_AUX_GRUPOS_PREG",
+			"idPkField": " CCL_ID_GRUPO|CCL_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CUESTIONARIO",
+			"idRealObject": " M4TGT_AUX_NIVEL_PREG",
+			"idPkField": " CCL_ID_NIVEL|CCL_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CUESTIONARIO",
+			"idRealObject": " M4TGT_AUX_SUBGRUPO_PREG",
+			"idPkField": " CCL_ID_SUBGRUPO|CCL_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CUESTIONARIO",
+			"idRealObject": " M4TGT_AUX_TP_PREGUNTA",
+			"idPkField": " CCL_ID_TP_PREGUNTA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CUESTIONARIO",
+			"idRealObject": " M4TGT_BLOCK_IDS_CUEST",
+			"idPkField": " CCL_ID_PROCESS|CCL_ID_CODIGO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CUESTIONARIO",
+			"idRealObject": " M4TGT_MOD_SUB_EMP_PREG",
+			"idPkField": " CCL_ID_MODULO|CCL_ID_SUBMODULO|CCL_ID_PAIS|CCL_EMPRESA|CCL_ID_SUBGRUPO|CCL_ID_GRUPO|CCL_ID_PREGUNTA|CCL_ID_NIVEL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CUESTIONARIO",
+			"idRealObject": " M4TGT_MOD_SUB_EMP_PREG_OLD",
+			"idPkField": " CCL_ID_CUESTIONARIO|CCL_ID_MODULO|CCL_ID_SUBMODULO|CCL_EMPRESA|CCL_ID_PAIS|CCL_ID_SUBGRUPO|CCL_ID_GRUPO|CCL_ID_PREGUNTA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CUESTIONARIO",
+			"idRealObject": " M4TGT_MOD_SUB_EMPRESA",
+			"idPkField": " CCL_ID_MODULO|CCL_ID_SUBMODULO|CCL_ID_PAIS|CCL_EMPRESA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_CUESTIONARIO",
+			"idRealObject": " M4TGT_PREG_EVAL_EMPR",
+			"idPkField": " CCL_ID_PREGUNTA|CCL_EMPRESA|CCL_FEC_INICIO|CCL_ID_PAIS",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_INC_NOMINA",
+			"idRealObject": " M4TGT_AUX_INC_NOMINA",
+			"idPkField": " CCL_ID_INCIDENCIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_INC_NOMINA",
+			"idRealObject": " M4TGT_AUX_VALOR_INC_NOM",
+			"idPkField": " CCL_ID_INCIDENCIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_INC_NOMINA",
+			"idRealObject": " M4TGT_H_INC_NOMINA_EMPRESA",
+			"idPkField": " CCL_ID_INCIDENCIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_INC_NOMINA",
+			"idRealObject": " M4TGT_INC_NOM_EMP",
+			"idPkField": " CCL_ID_INCIDENCIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_INC_NOMINA",
+			"idRealObject": " M4TGT_INC_NOM_EMP_PROV",
+			"idPkField": " CCL_ID_INCIDENCIA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_INC_NOMINA",
+			"idRealObject": " M4TGT_INC_NOM_TIENDA",
+			"idPkField": " CCL_ID_INCIDENCIA|CCL_ID_TIENDA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_PERMISOS",
+			"idRealObject": " M4TGT_USUARIO_CADENA",
+			"idPkField": " ID_ORGANIZATION|CCL_CADENA|ID_APP_USER_TGT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_PERMISOS",
+			"idRealObject": " M4TGT_USUARIO_CADENA_PROV",
+			"idPkField": " ID_ORGANIZATION|CCL_CADENA|CCL_ID_PAIS|CCL_ID_PROVINCIA|ID_APP_USER_TGT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_PERMISOS",
+			"idRealObject": " M4TGT_USUARIO_EMPRESA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_EMPRESA|ID_APP_USER_TGT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_PERMISOS",
+			"idRealObject": " M4TGT_USUARIO_TIENDA",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_TIENDA|ID_APP_USER_TGT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TGT_ROL",
+			"idRealObject": " M4TGT_ROLES_USUARIO",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ROL|ID_APP_USER_TGT",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TRADUCCIONES",
+			"idRealObject": " M4ATR_TRADUCCIONES",
+			"idPkField": " ATR_ID_MODULO|ATR_ID_APLICACION|ATR_PAGINA|ATR_ID_ETIQUETA",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TRANSCODIFICACION",
+			"idRealObject": " M4GLB_CONFIG_MAPEO",
+			"idPkField": " ID_ORGANIZATION|TABLE_ALIAS_CONFIG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TRANSCODIFICACION",
+			"idRealObject": " M4GLB_CONFIG_MAPEOS_ORIGEN",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_MAPEO|TABLE_ALIAS_CONFIG",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TRANSCODIFICACION",
+			"idRealObject": " M4GLB_PY_TP_MAPEO",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_TP_MAPEO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TRANSCODIFICACION",
+			"idRealObject": " M4GLB_SISTEMAS_MAPEO",
+			"idPkField": " ID_ORGANIZATION|GLB_ID_MAPEO",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TRANSCODIFICACION",
+			"idRealObject": " M4GLB_VAL_MAPEO",
+			"idPkField": " ID_ORGANIZATION|CCL_ID_ORIGEN|GLB_ID_MAPEO|TABLE_ALIAS_CONFIG|GLB_ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TRANSFERENCIA_M4O",
+			"idRealObject": " M4RCH_CATEGORIES",
+			"idPkField": " ID_CATEGORIE",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TRANSFERENCIA_M4O",
+			"idRealObject": " M4RCH_CATEGORY_GRP",
+			"idPkField": " ID_CATEGORIE|ID_T3_OR|ID_GROUP_CATEGORY",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TRANSFERENCIA_M4O",
+			"idRealObject": " M4RCH_GROUP_MAPP",
+			"idPkField": " ID_GROUP|ID_T3_OR|ID_MAP|ID_T3_MAP_OR|ID_T3_MAP_DEST",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TRANSFERENCIA_M4O",
+			"idRealObject": " M4RCH_GROUPS",
+			"idPkField": " ID_GROUP|ID_T3_OR",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TRANSFERENCIA_M4O",
+			"idRealObject": " M4RCH_ITEMS_MAPPED",
+			"idPkField": " ID_MAP|ID_T3_MAP_OR|ID_T3_MAP_DEST",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " TRANSFERENCIA_M4O",
+			"idRealObject": " M4RCH_T3S_MAPPED",
+			"idPkField": " ID_T3_OR|ID_T3_DEST",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " UNIT",
+			"idRealObject": " M4RPT_UNIT",
+			"idPkField": " ID_UNIT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " UNIT",
+			"idRealObject": " M4RPT_UNIT_DESC",
+			"idPkField": " ID_UNIT",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " USE",
+			"idRealObject": " M4RPT_USE",
+			"idPkField": " ID_USE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " USE",
+			"idRealObject": " M4RPT_USE_DESC",
+			"idPkField": " ID_USE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WEB_SALARIAL",
+			"idRealObject": " M4WS_OPCIONES_PERMISOS",
+			"idPkField": " ID_OPCION|ORDINAL",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW INSTANCE",
+			"idRealObject": " M4RWF_BPO",
+			"idPkField": " ID_BPO",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW INSTANCE",
+			"idRealObject": " M4RWF_EV_EXPECTED",
+			"idPkField": " ID_BPO",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW INSTANCE",
+			"idRealObject": " M4RWF_INST_DATA",
+			"idPkField": " ID_BPO",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW INSTANCE",
+			"idRealObject": " M4RWF_INST_TASK",
+			"idPkField": " ID_BPO",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW INSTANCE",
+			"idRealObject": " M4RWF_SUBBPO",
+			"idPkField": " ID_BPO",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW INSTANCE",
+			"idRealObject": " M4RWF_WORKITEM",
+			"idPkField": " ID_BPO",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_ASSIGNEDROLE",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_BPC",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_DATADEF",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_EVENTASSOC",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_J_SBPC_MAP",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_JOINED_SBPC",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_RL_PARMAP",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_STATE",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_STATE_RULE",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_SUBBPC",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_SUBBPC_MAP",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_TASK",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_TASK_PARAM",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_TRANSCANCEL",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_TRANSITION",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW PROCESS",
+			"idRealObject": " M4RWF_XTRAPOINT",
+			"idPkField": " ID_BPC",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW RULE",
+			"idRealObject": " M4RRL_DEF",
+			"idPkField": " ID_RULE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WORKFLOW RULE",
+			"idRealObject": " M4RRL_PARAM",
+			"idPkField": " ID_RULE",
+			"tipoTransfer": " L",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WS_VAR_TEORICO",
+			"idRealObject": " M4MST_GRADOS_PESOS",
+			"idPkField": " SCO_ID_PLAN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WS_VAR_TEORICO",
+			"idRealObject": " M4MST_GRADOS_VARIABLE_TEORICO",
+			"idPkField": " SCO_ID_PLAN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WS_VAR_TEORICO",
+			"idRealObject": " M4MST_PLANES_PAISES",
+			"idPkField": " SCO_ID_PLAN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WS_VAR_TEORICO",
+			"idRealObject": " M4SCO_GRADE_BY_PLA",
+			"idPkField": " SCO_ID_PLAN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WS_VAR_TEORICO",
+			"idRealObject": " M4SCO_H_SALARY_PLA",
+			"idPkField": " SCO_ID_PLAN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		},
+		{
+			"idClass": " WS_VAR_TEORICO",
+			"idRealObject": " M4SCO_SALARY_PLAN ",
+			"idPkField": " SCO_ID_PLAN",
+			"tipoTransfer": " R",
+			"idRealObjectLectura": ""
+		}
+	]
+}
