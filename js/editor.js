@@ -1,5 +1,4 @@
-let table
-let jsonData=[]
+var table
 
 const columns=[
 
