@@ -1,5 +1,4 @@
-{
-	"tablasEscanear": [
+[
 		{
 			"idClass": " AP",
 			"idRealObject": " M4AP_X_AGRUPACION_TP_DOC",
@@ -6636,5 +6635,4 @@
 			"tipoTransfer": " R",
 			"idRealObjectLectura": ""
 		}
-	]
-}
+]
