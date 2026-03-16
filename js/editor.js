@@ -14,7 +14,7 @@ const columns=[
 function createTable(){
 
 	table = new Tabulator("#table",{
-		ajaxURL:"/configuracion/tablasEscanear.json",
+		ajaxURL:"./configuracion/tablasEscanear.json",
 		layout:"fitColumns",
 		addRowPos:"top",
 		height:"500px",
@@ -90,7 +90,7 @@ function exportJSON(){
 
 $(document).ready(function(){
 
-	const buscador = document.querySelector("globalSearch");
+	const buscador = $("#globalSearch");
 	buscador.addEventListener("keyup",function(){
 
 		const value=this.value.toLowerCase()
