@@ -46,7 +46,7 @@ const columns=[
 
 ]
 
-function createTable(data){
+function createTable(){
 
 	table = new Tabulator("#table",{
 		ajaxURL:"./configuracion/tablasEscanear.json",
@@ -152,7 +152,8 @@ function exportJSON(){
 
 }
 
-
+createTable()
+	
 </script>
 
 </body>
