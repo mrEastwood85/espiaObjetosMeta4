@@ -90,8 +90,7 @@ function exportJSON(){
 
 $(document).ready(function(){
 
-	/*const buscador = $("#globalSearch");
-	buscador.addEventListener("keyup",function(){
+	document.getElementById("globalSearch").addEventListener("keyup",function(){
 
 		const value=this.value.toLowerCase()
 
@@ -104,7 +103,6 @@ $(document).ready(function(){
 		})
 
 	})
-	*/
 	
 	createTable();
 })
