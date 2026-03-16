@@ -1,6 +1,6 @@
 var table
 
-const columns=[
+var columns=[
 
 	{id:"idClass",title:"idClass"},
 	{id:"idRealObject",title:"idRealObject"},
