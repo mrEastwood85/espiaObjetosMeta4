@@ -155,7 +155,8 @@ function deleteRow(){
 
 /* exportar */
 function exportJSON(){
-
+	
+	const fechaIsoString = new Date().toISOString();
 	const data=table.getData()
 	const finalJSON={
 		tablasEscanear:data
@@ -166,7 +167,8 @@ function exportJSON(){
 	)
 	const a=document.createElement("a")
 	a.href=URL.createObjectURL(blob)
-	a.download="datos_editados.json"
+	
+	a.download="objetosModificados"+fechaIsoString+".json"
 	a.click()
 
 }
