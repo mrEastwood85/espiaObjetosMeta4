@@ -24,20 +24,10 @@ Analizador objetos meta4
 <input type="file" id="fileInput"
 class="border rounded px-3 py-2">
 
-<button onclick="addRow()"
-class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">
-Añadir fila
-</button>
-
-<button onclick="deleteRow()"
-class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded">
-Eliminar fila
-</button>
-
-<button onclick="exportJSON()"
-class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">
-Exportar JSON
-</button>
+<button onclick="addRow()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded"> Añadir fila </button>
+<button onclick="deleteRow()" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"> Eliminar fila </button>
+<button onclick="clearTable()" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded"> Limpiar tabla </button>
+<button onclick="exportJSON()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"> Generar comandos </button>
 
 </div>
 
@@ -58,41 +48,45 @@ class="w-full border rounded px-4 py-2">
 var table
 var jsonData=[]
 
-var columns=[
 
-	{id:"idClass",title:"idClass"},
-	{id:"idRealObject",title:"idRealObject"},
-	{id:"idPkField",title:"idPkField"},
-	{id:"tipoTransfer",title:"tipoTransfer"},
-	{id:"idRealObjectLectura",title:"idRealObjectLectura"}
-
-]
+var tipoTransferMutator = function(value, data, type, params, component){
+    
+	var valorRetornado
+	switch (value) {
+	case "R":
+		valorRetornado = "REPLACE";
+		break;
+	case "L":
+		valorRetornado = "TRANSFER";
+		break;
+	default:
+		valorRetornado = "sinTipo";
+		break;
+	}
+    return valorRetornado
+}
 
 function createTable(data){
 
 	table = new Tabulator("#table",{
 
-	data:data,
+		data:data,
+		layout:"fitColumns",
+		addRowPos:"top",
+		height:"500px",
+		pagination:false,
+		paginationSize:8,
+		selectable:1,
+		movableColumns:true,
+		columns:[
 
-	layout:"fitColumns",
+			{field:"idClass",title:"idClass",editor:true},
+			{field:"idRealObject",title:"idRealObject",editor:true},
+			{field:"idPkField",title:"idPkField",editor:true},
+			{field:"tipoTransfer",title:"tipoTransfer",mutator:tipoTransferMutator, editor:"list",editorParams:{values:["R","L"]}},
+			{field:"idRealObjectLectura",title:"idRealObjectLectura",editor:true}
 
-	height:"500px",
-
-	pagination:false,
-	paginationSize:8,
-
-	selectable:1,
-
-	movableColumns:true,
-
-	columns:columns.map(c=>({
-
-		title:c.title,
-		field:c.id,
-
-		editor:"input"
-
-	}))
+		]
 
 	})
 
@@ -171,6 +165,13 @@ function exportJSON(){
 	a.href=URL.createObjectURL(blob)
 	a.download="datos_editados.json"
 	a.click()
+
+}
+
+/* vaciar tabla */
+function clearTable(){
+
+	table.clearData()
 
 }
 
