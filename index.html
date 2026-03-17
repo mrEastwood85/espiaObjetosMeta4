@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Analizador objetos meta4</title>
+	<meta charset="UTF-8">
+	<title>Analizador objetos meta4</title>
 
-<script src="https://cdn.tailwindcss.com"></script>
-
-<link href="https://unpkg.com/tabulator-tables@5.5.2/dist/css/tabulator.min.css" rel="stylesheet">
-<script src="https://unpkg.com/tabulator-tables@5.5.2/dist/js/tabulator.min.js"></script>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/luxon@2.3.1/build/global/luxon.min.js"></script>
+	<link href="https://unpkg.com/tabulator-tables@5.5.2/dist/css/tabulator.min.css" rel="stylesheet">
+	<script src="https://unpkg.com/tabulator-tables@5.5.2/dist/js/tabulator.min.js"></script>
 
 </head>
 
@@ -47,6 +47,7 @@ var jsonData=[]
 var tipoTransferMutator = function(value, data, type, params, component){
     
 	var valorRetornado
+	
 	switch (value) {
 	case "R":
 		valorRetornado = "REPLACE";
@@ -54,11 +55,73 @@ var tipoTransferMutator = function(value, data, type, params, component){
 	case "L":
 		valorRetornado = "TRANSFER";
 		break;
+	case "T":
+		valorRetornado = "TRANSFER";
+		break;
 	default:
 		valorRetornado = "sinTipo";
 		break;
 	}
-    return valorRetornado
+    return valorRetornado;
+}
+
+var componeComandoMutator = function(value, data, type, params, component){
+	
+	var idClassReg = data.idClass
+	var idObjetoReg = data.idObjeto
+	var valorObjetoReg = data.valorObjeto
+	var camposObjetoReg = data.camposObjeto
+	var tipoTransferReg = data.tipoTransfer
+
+	var valorRetornado = "";
+	var semillaTransfer = 'Transfer "@idClassSustituir"."@valorObjetoSustituir" From Origin To Destination';
+	var semillaReplace = 'Replace @idObjetoSustituir From Origin To Destination Where "@clausulaWhereSustituir"';
+	var vClausulaWhere = "";
+	var comillaSimple = "\'"
+	
+	//Dependiendo del tipo de transfer tenemos que formar un comando u otro
+	switch (tipoTransferReg) {
+	case "TRANSFER":
+		valorRetornado = semillaTransfer;
+		
+		//Sustituimos los comodines por los valores reales
+		valorRetornado = valorRetornado.replace("@idClassSustituir",idClassReg);
+		valorRetornado = valorRetornado.replace("@valorObjetoSustituir",valorObjetoReg);
+		break;
+		
+	case "REPLACE":
+	
+		//Definimos la funcion que recorre el array y genera la clausula where
+		function componeClausulaWhere(element, index, array) {
+		
+			//Como los dos arrays siempre tienen el mismo numero de elementos y estan ordenados de la misma forma con recorrer uno y acceder a los dos es suficiente
+			vIdCampoWhere = vArrayCamposObjeto[index];
+			vValorWhere = vArrayValoresObjeto[index];
+			
+			if (index > 0){
+				vClausulaWhere = vClausulaWhere + " and "
+			}
+			vClausulaWhere = vClausulaWhere + vIdCampoWhere + " = " + comillaSimple + vValorWhere + comillaSimple;
+			
+		}
+		
+		valorRetornado = semillaReplace;
+		vArrayValoresObjeto = valorObjetoReg.split("|");	//Generamos el array de valores
+		vArrayCamposObjeto = camposObjetoReg.split("|");	//Generamos el array de campos
+		
+		vArrayValoresObjeto.forEach(componeClausulaWhere);
+		
+		//Sustituimos los comodines por los valores reales
+		valorRetornado = valorRetornado.replace("@idObjetoSustituir",idObjetoReg);
+		valorRetornado = valorRetornado.replace("@clausulaWhereSustituir",vClausulaWhere);
+		
+		break;
+	default:
+		valorRetornado = "sinComando";
+		break;
+	}
+		
+    return valorRetornado;
 }
 
 function createTable(data){
@@ -66,25 +129,30 @@ function createTable(data){
 	table = new Tabulator("#table",{
 
 		data:data,
-		layout:"fitColumns",
+		//layout:"fitColumns",
 		addRowPos:"top",
-		height:"500px",
+		height:"425px",
 		pagination:false,
 		paginationSize:8,
 		selectable:1,
 		movableColumns:true,
 		columns:[
-
-			{field:"idClass",title:"idClass",editor:true},
-			{field:"idRealObject",title:"idRealObject",editor:true},
-			{field:"idPkField",title:"idPkField",editor:true},
-			{field:"tipoTransfer",title:"tipoTransfer",mutator:tipoTransferMutator, editor:"list",editorParams:{values:["R","L"]}},
-			{field:"idRealObjectLectura",title:"idRealObjectLectura",editor:true}
-
+			
+			{field:"idClass",title:"idClass",frozen:true,editor:true},
+			{field:"valorObjeto",title:"valorObjeto",frozen:true,editor:true},
+			{field:"idObjeto",title:"idObjeto",editor:true},
+			{field:"usuario",title:"usuario",editor:true},
+			{field:"fecha",title:"fecha",sorter:"date",editor:true,sorterParams:{format:"yyyy-MM-dd"},formatter:"datetime", 
+				formatterParams:{
+				inputFormat:"yyyy-MM-dd",
+				outputFormat:"dd/MM/yyyy",
+				invalidPlaceholder:"(invalid date)"}
+			},
+			{field:"tipoTransfer",title:"tipoTransfer",mutator:tipoTransferMutator,editorParams:{values:["R","T"]},editor:"list"},
+			{field:"camposObjeto",title:"camposObjeto", visible:false,editor:true},
+			{field:"comando",title:"comando",mutator:componeComandoMutator,editor:true}
 		]
-
-	})
-
+	});
 }
 
 /* cargar JSON */
@@ -93,7 +161,7 @@ document.getElementById("fileInput").addEventListener("change",function(e){
 	const reader=new FileReader()
 	reader.onload=function(event){
 		const json=JSON.parse(event.target.result)
-		jsonData=json.tablasEscanear
+		jsonData=json.objetosModificados
 		createTable(jsonData)
 
 	}
@@ -159,7 +227,7 @@ function exportJSON(){
 	const fechaIsoString = new Date().toISOString();
 	const data=table.getData()
 	const finalJSON={
-		tablasEscanear:data
+		objetosModificados:data
 	}
 	const blob=new Blob(
 		[JSON.stringify(finalJSON,null,2)],
