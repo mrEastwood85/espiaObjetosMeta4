@@ -21,22 +21,17 @@ Analizador objetos meta4
 
 <div class="flex flex-wrap gap-3 mb-4">
 
-<input type="file" id="fileInput"
-class="border rounded px-3 py-2">
+	<input type="file" id="fileInput" class="border rounded px-3 py-2">
 
-<button onclick="addRow()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded"> Añadir fila </button>
-<button onclick="deleteRow()" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"> Eliminar fila </button>
-<button onclick="clearTable()" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded"> Limpiar tabla </button>
-<button onclick="exportJSON()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"> Generar comandos </button>
+	<button onclick="addRow()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded"> Añadir fila </button>
+	<button onclick="deleteRow()" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"> Eliminar fila </button>
+	<button onclick="clearTable()" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded"> Limpiar tabla </button>
+	<button onclick="exportJSON()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"> Generar comandos </button>
 
 </div>
 
 <div class="mb-6">
-
-<input id="globalSearch" type="text"
-placeholder="Buscar en toda la tabla..."
-class="w-full border rounded px-4 py-2">
-
+	<input id="globalSearch" type="text" placeholder="Buscar en toda la tabla..." class="w-full border rounded px-4 py-2">
 </div>
 
 <div id="table"></div>
@@ -93,23 +88,31 @@ function createTable(data){
 }
 
 /* cargar JSON */
-
 document.getElementById("fileInput").addEventListener("change",function(e){
-
+	
 	const reader=new FileReader()
 	reader.onload=function(event){
-	const json=JSON.parse(event.target.result)
-	jsonData=json.tablasEscanear
-	createTable(jsonData)
+		const json=JSON.parse(event.target.result)
+		jsonData=json.tablasEscanear
+		createTable(jsonData)
 
-}
-
-reader.readAsText(e.target.files[0])
+	}
+	
+	var nombreFichero = e.target.files[0].name;
+	
+	reader.readAsText(e.target.files[0])
 
 })
 
-/* buscador global */
+//Al haer clcik en el boton de fichero borramos el contenido para permitir cargar el mismo fichero varias veces
+document.getElementById("fileInput").addEventListener("click",function(e){
+	
+	document.getElementById("fileInput").value = "";
+	
+})
 
+
+/* buscador global */
 document.getElementById("globalSearch").addEventListener("keyup",function(){
 
 	const value=this.value.toLowerCase()
