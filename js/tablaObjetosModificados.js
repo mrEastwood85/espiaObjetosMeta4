@@ -1,7 +1,4 @@
 
-var table
-var jsonData=[]
-
 var tipoTransferMutator = function(value, data, type, params, component){
     
 	var valorRetornado
@@ -82,9 +79,9 @@ var componeComandoMutator = function(value, data, type, params, component){
     return valorRetornado;
 }
 
-function createTable(data){
+function createTableObjetosModificados(data){
 
-	table = new Tabulator("#table",{
+	objTableObjetosModificados = new Tabulator("#tablaObjetosModificados",{
 
 		data:data,
 		layout:"fitDataStretch",
@@ -107,27 +104,6 @@ function createTable(data){
 			{field:"comando",title:"comando",mutator:componeComandoMutator,visible:true}
 		]
 	});
-}
-
-function createTablaDefinicion(data){
-
-	objTablaDefinicionCampos = new Tabulator("#tablaDefinicionCampos",{
-
-		data:data,
-		layout:"fitDataStretch",
-		height:"425px",
-		dataTree:true,
-		dataTreeStartExpanded:false,
-		dataTreeChildField:"campos",
-		columns:[
-		
-			{field:"idTabla",title:"idTabla"},
-			{field:"idTipoCampo",title:"idTipoCampo"},
-			{field:"idCampo",title:"idCampo"}
-		]
-		
-	});
-	
 }
 
 /* cargar JSON */
@@ -153,7 +129,7 @@ document.getElementById("fileInput").addEventListener("change",function(e){
 		reader.onload=function(event){
 			const json=JSON.parse(event.target.result)
 			jsonData=json.objetosModificados
-			createTable(jsonData)
+			createTableObjetosModificados(jsonData)
 		}
 		
 		var nombreFichero = e.target.files[0].name;
@@ -163,55 +139,29 @@ document.getElementById("fileInput").addEventListener("change",function(e){
 
 })
 
-//Al haer click en el boton de fichero borramos el contenido para permitir cargar el mismo fichero varias veces
-document.getElementById("fileInput").addEventListener("click",function(e){
-	
-	document.getElementById("fileInput").value = "";
-	
-})
-
-/* cargar JSON tabla definicion*/
-document.getElementById("fileInputTablaDefinicion").addEventListener("change",function(e){
-	
-	const readerTablaDefinicion=new FileReader()
-	readerTablaDefinicion.onload=function(event){
-		const json=JSON.parse(event.target.result)
-		jsonData=json.tablas
-		createTablaDefinicion(jsonData)
-	}
-	
-	readerTablaDefinicion.readAsText(e.target.files[0])
-
-})
-
 //Al hacer click en el boton de fichero borramos el contenido para permitir cargar el mismo fichero varias veces
-document.getElementById("fileInputTablaDefinicion").addEventListener("click",function(e){
-	
-	document.getElementById("fileInputTablaDefinicion").value = "";
-	
+document.getElementById("fileInput").addEventListener("click",function(e){
+	document.getElementById("fileInput").value = "";
 })
 
-
-/* buscador global */
-document.getElementById("globalSearch").addEventListener("keyup",function(){
+/* buscador buscadorObjetosModificados */
+document.getElementById("buscadorObjetosModificados").addEventListener("keyup",function(){
 
 	const value=this.value.toLowerCase()
 
-	table.setFilter(function(data){
+	objTableObjetosModificados.setFilter(function(data){
 
 		return Object.values(data).some(v=>
 
 			String(v).toLowerCase().includes(value)
 		)
-
 	})
-
 })
 
 /* añadir fila */
 function addRow(){
 
-	table.addRow({
+	objTableObjetosModificados.addRow({
 		idClass:"",
 		idRealObject:"",
 		idPkField:"",
@@ -221,25 +171,11 @@ function addRow(){
 
 }
 
-/* eliminar fila */
-function deleteRow(argTable){
-
-	const rows=argTable.getSelectedRows()
-	if(rows.length===0){
-		alert("Selecciona una fila")
-		return
-	}
-	
-	for (let i = 0; i < rows.length; i++) {
-	  rows[i].delete();
-	}
-}
-
 /* exportar */
 function generarComandos(){
 	
 	const fechaIsoString = new Date().toISOString();
-	const vArrayDatosTabla=table.getData()
+	const vArrayDatosTabla=objTableObjetosModificados.getData()
 	
 	let vTextoExportar = "";
 	let vComando = "";
@@ -263,10 +199,4 @@ function generarComandos(){
 	a.href=URL.createObjectURL(blob)
 	a.download="objetosModificados"+fechaIsoString+".txt";	//Añadimos al nombre del archivo la fecha del sistema
 	a.click()
-}
-
-/* vaciar tabla */
-function clearTable(argTable){
-	
-	argTable.clearData()
 }

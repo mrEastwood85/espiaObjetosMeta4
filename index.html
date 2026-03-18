@@ -24,34 +24,34 @@
 <div class="max-w-7xl mx-auto bg-white shadow-xl rounded-xl p-8">
 	
 	<div id="tab1" class="tab-content">
-	<h1 class="text-2xl font-bold mb-6 text-slate-700">Analizador objetos meta4</h1>
+		<h1 class="text-2xl font-bold mb-6 text-slate-700">Analizador objetos meta4</h1>
 		<div class="flex flex-wrap gap-3 mb-4">
-
-				<input type="file" id="fileInput" class="border rounded px-3 py-2">
-				<button onclick="deleteRow(table)" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"> Eliminar fila(s) </button>
-				<button onclick="clearTable(table)" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded"> Limpiar tabla </button>
-				<button onclick="generarComandos()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"> Generar comandos </button>
-
-			</div>
-
-			<div class="mb-6">
-				<input id="globalSearch" type="text" placeholder="Buscar en toda la tabla..." class="w-full border rounded px-4 py-2">
+			<input type="file" id="fileInput" class="border rounded px-3 py-2">
+			<button onclick="deleteRow(objTableObjetosModificados)" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"> Eliminar fila(s) </button>
+			<button onclick="clearTable(objTableObjetosModificados)" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded"> Limpiar tabla </button>
+			<button onclick="generarComandos()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"> Generar comandos </button>
 		</div>
-		<div id="table"></div>
+		<div class="mb-6">
+			<input id="buscadorObjetosModificados" type="text" placeholder="Buscar en toda la tabla..." class="w-full border rounded px-4 py-2">
+		</div>
+		<div id="tablaObjetosModificados"></div>
 	</div>
 
 	<div id="tab2" class="tab-content active">
 		<h1 class="text-2xl font-bold mb-6 text-slate-700">Definicion de tablas</h1>
 		
-		<input type="file" id="fileInputTablaDefinicion" class="border rounded px-3 py-2">
-		<button onclick="clearTable(objTablaDefinicionCampos)" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded"> Limpiar tabla </button>
-		
+		<div class="flex flex-wrap gap-3 mb-4">
+			<input type="file" id="fileInputTablaDefinicion" class="border rounded px-3 py-2">
+			<button onclick="clearTable(objTablaDefinicionCampos)" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded"> Limpiar tabla </button>
+		</div>
 		<div id="tablaDefinicionCampos"></div>
 	</div>
 </div>
 
 <script src="js/pestanas.js"></script>
-<script src="js/tables.js"></script>
+<script src="js/comunTablas.js"></script>
+<script src="js/tablaDefinicionCampos.js"></script>
+<script src="js/tablaObjetosModificados.js"></script>
 
 </body>
 </html>
