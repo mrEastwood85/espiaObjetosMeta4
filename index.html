@@ -3,263 +3,55 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Analizador objetos meta4</title>
-
+	
+	<link href="https://unpkg.com/tabulator-tables@5.5.2/dist/css/tabulator.min.css" rel="stylesheet">
+	<link href="css/estilos.css" rel="stylesheet">
+	
 	<script src="https://cdn.tailwindcss.com"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/luxon@2.3.1/build/global/luxon.min.js"></script>
-	<link href="https://unpkg.com/tabulator-tables@5.5.2/dist/css/tabulator.min.css" rel="stylesheet">
 	<script src="https://unpkg.com/tabulator-tables@5.5.2/dist/js/tabulator.min.js"></script>
-
+	
 </head>
 
 <body class="bg-slate-100 min-h-screen p-10">
 
+<div class="tabs">
+  <button class="tab active" data-tab="tab2">Definicion de tablas</button>
+  <button class="tab" data-tab="tab1">Objetos modificados</button>
+  <div class="tab-indicator"></div>
+</div>
+
 <div class="max-w-7xl mx-auto bg-white shadow-xl rounded-xl p-8">
-
-<h1 class="text-2xl font-bold mb-6 text-slate-700">
-Analizador objetos meta4
-</h1>
-
-<div class="flex flex-wrap gap-3 mb-4">
-
-	<input type="file" id="fileInput" class="border rounded px-3 py-2">
 	
-	<!--
-		<button onclick="addRow()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded"> Añadir fila </button>
-	-->
-	<button onclick="deleteRow()" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"> Eliminar fila(s) </button>
-	<button onclick="clearTable()" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded"> Limpiar tabla </button>
-	<button onclick="generarComandos()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"> Generar comandos </button>
+	<div id="tab1" class="tab-content">
+	<h1 class="text-2xl font-bold mb-6 text-slate-700">Analizador objetos meta4</h1>
+		<div class="flex flex-wrap gap-3 mb-4">
 
+				<input type="file" id="fileInput" class="border rounded px-3 py-2">
+				<button onclick="deleteRow(table)" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"> Eliminar fila(s) </button>
+				<button onclick="clearTable(table)" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded"> Limpiar tabla </button>
+				<button onclick="generarComandos()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"> Generar comandos </button>
+
+			</div>
+
+			<div class="mb-6">
+				<input id="globalSearch" type="text" placeholder="Buscar en toda la tabla..." class="w-full border rounded px-4 py-2">
+		</div>
+		<div id="table"></div>
+	</div>
+
+	<div id="tab2" class="tab-content active">
+		<h1 class="text-2xl font-bold mb-6 text-slate-700">Definicion de tablas</h1>
+		
+		<input type="file" id="fileInputTablaDefinicion" class="border rounded px-3 py-2">
+		<button onclick="clearTable(objTablaDefinicionCampos)" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded"> Limpiar tabla </button>
+		
+		<div id="tablaDefinicionCampos"></div>
+	</div>
 </div>
 
-<div class="mb-6">
-	<input id="globalSearch" type="text" placeholder="Buscar en toda la tabla..." class="w-full border rounded px-4 py-2">
-</div>
-
-<div id="table"></div>
-
-</div>
-
-<script>
-
-var table
-var jsonData=[]
-
-var tipoTransferMutator = function(value, data, type, params, component){
-    
-	var valorRetornado
-	
-	switch (value) {
-	case "R":
-		valorRetornado = "REPLACE";
-		break;
-	case "L":
-		valorRetornado = "TRANSFER";
-		break;
-	case "T":
-		valorRetornado = "TRANSFER";
-		break;
-	default:
-		valorRetornado = "sinTipo";
-		break;
-	}
-    return valorRetornado;
-}
-
-var componeComandoMutator = function(value, data, type, params, component){
-	
-	var idClassReg = data.idClass
-	var idObjetoReg = data.idObjeto
-	var valorObjetoReg = data.valorObjeto
-	var camposObjetoReg = data.camposObjeto
-	var tipoTransferReg = data.tipoTransfer
-
-	var valorRetornado = "";
-	var semillaTransfer = 'Transfer "@idClassSustituir"."@valorObjetoSustituir" From Origin To Destination';
-	var semillaReplace = 'Replace @idObjetoSustituir From Origin To Destination Where "@clausulaWhereSustituir"';
-	var vClausulaWhere = "";
-	var comillaSimple = "\'"
-	
-	//Dependiendo del tipo de transfer tenemos que formar un comando u otro
-	switch (tipoTransferReg) {
-	case "TRANSFER":
-		valorRetornado = semillaTransfer;
-		
-		//Sustituimos los comodines por los valores reales
-		valorRetornado = valorRetornado.replace("@idClassSustituir",idClassReg);
-		valorRetornado = valorRetornado.replace("@valorObjetoSustituir",valorObjetoReg);
-		break;
-		
-	case "REPLACE":
-	
-		//Definimos la funcion que recorre el array y genera la clausula where
-		function componeClausulaWhere(element, index, array) {
-		
-			//Como los dos arrays siempre tienen el mismo numero de elementos y estan ordenados de la misma forma con recorrer uno y acceder a los dos es suficiente
-			vIdCampoWhere = vArrayCamposObjeto[index];
-			vValorWhere = vArrayValoresObjeto[index];
-			
-			if (index > 0){
-				vClausulaWhere = vClausulaWhere + " and "
-			}
-			vClausulaWhere = vClausulaWhere + vIdCampoWhere + " = " + comillaSimple + vValorWhere + comillaSimple;
-			
-		}
-		
-		valorRetornado = semillaReplace;
-		vArrayValoresObjeto = valorObjetoReg.split("|");	//Generamos el array de valores
-		vArrayCamposObjeto = camposObjetoReg.split("|");	//Generamos el array de campos
-		
-		vArrayValoresObjeto.forEach(componeClausulaWhere);
-		
-		//Sustituimos los comodines por los valores reales
-		valorRetornado = valorRetornado.replace("@idObjetoSustituir",idObjetoReg);
-		valorRetornado = valorRetornado.replace("@clausulaWhereSustituir",vClausulaWhere);
-		
-		break;
-	default:
-		valorRetornado = "sinComando";
-		break;
-	}
-		
-    return valorRetornado;
-}
-
-function createTable(data){
-
-	table = new Tabulator("#table",{
-
-		data:data,
-		layout:"fitDataStretch",
-		height:"425px",
-		selectable:10000000,
-		columns:[
-		
-			{field:"tipoTransfer",title:"tipo",mutator:tipoTransferMutator,width:100},
-			{field:"usuario",title:"usuario",width:100},
-			{field:"fecha",title:"fecha",sorter:"date",sorterParams:{format:"yyyy-MM-dd"},formatter:"datetime",width:100, 
-				formatterParams:{
-				inputFormat:"yyyy-MM-dd",
-				outputFormat:"dd/MM/yyyy",
-				invalidPlaceholder:"(invalid date)"}
-			},
-			{field:"idClass",title:"idClass"},
-			{field:"idObjeto",title:"idObjeto"},
-			{field:"valorObjeto",title:"valorObjeto"},
-			{field:"camposObjeto",title:"camposObjeto",visible:false},
-			{field:"comando",title:"comando",mutator:componeComandoMutator,visible:false}
-		]
-	});
-	
-}
-
-/* cargar JSON */
-document.getElementById("fileInput").addEventListener("change",function(e){
-	
-	const reader=new FileReader()
-	reader.onload=function(event){
-		const json=JSON.parse(event.target.result)
-		jsonData=json.objetosModificados
-		createTable(jsonData)
-	}
-	
-	var nombreFichero = e.target.files[0].name;
-	
-	reader.readAsText(e.target.files[0])
-
-})
-
-//Al haer click en el boton de fichero borramos el contenido para permitir cargar el mismo fichero varias veces
-document.getElementById("fileInput").addEventListener("click",function(e){
-	
-	document.getElementById("fileInput").value = "";
-	
-})
-
-
-/* buscador global */
-document.getElementById("globalSearch").addEventListener("keyup",function(){
-
-	const value=this.value.toLowerCase()
-
-	table.setFilter(function(data){
-
-		return Object.values(data).some(v=>
-
-			String(v).toLowerCase().includes(value)
-		)
-
-	})
-
-})
-
-/* añadir fila */
-function addRow(){
-
-	table.addRow({
-		idClass:"",
-		idRealObject:"",
-		idPkField:"",
-		tipoTransfer:"",
-		idRealObjectLectura:""
-	})
-
-}
-
-/* eliminar fila */
-function deleteRow(){
-
-	const rows=table.getSelectedRows()
-	if(rows.length===0){
-		alert("Selecciona una fila")
-		return
-	}
-	
-	for (let i = 0; i < rows.length; i++) {
-	  rows[i].delete();
-	}
-	
-}
-
-/* exportar */
-function generarComandos(){
-	
-	const fechaIsoString = new Date().toISOString();
-	const vArrayDatosTabla=table.getData()
-	
-	let vTextoExportar = "";
-	let vComando = "";
-	let vSeparador = "\\";
-	let vSaltoLinea = "\r\n";
-	
-	function componeTextoExportar(element, index, array) {
-		
-		//Obtenemos el comando y lo vamos concatenando en la variable con el texto que volcaremos al fichero
-		vComando = element.comando;
-		vTextoExportar = vTextoExportar + vComando + vSeparador + vSaltoLinea;
-				
-	}
-	
-	//Componemos el texto
-	vArrayDatosTabla.forEach(componeTextoExportar);
-	
-	//Generamos el archivo
-	const blob=new Blob([vTextoExportar],{type:"text/plain;charset=utf-8"});
-	const a=document.createElement("a")
-	a.href=URL.createObjectURL(blob)
-	a.download="objetosModificados"+fechaIsoString+".txt";	//Añadimos al nombre del archivo la fecha del sistema
-	a.click()
-
-}
-
-/* vaciar tabla */
-function clearTable(){
-
-	table.clearData()
-
-}
-
-</script>
+<script src="js/pestanas.js"></script>
+<script src="js/tables.js"></script>
 
 </body>
 </html>
