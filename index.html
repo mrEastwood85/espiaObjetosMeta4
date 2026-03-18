@@ -22,11 +22,13 @@ Analizador objetos meta4
 <div class="flex flex-wrap gap-3 mb-4">
 
 	<input type="file" id="fileInput" class="border rounded px-3 py-2">
-
-	<button onclick="addRow()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded"> Añadir fila </button>
-	<button onclick="deleteRow()" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"> Eliminar fila </button>
+	
+	<!--
+		<button onclick="addRow()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded"> Añadir fila </button>
+	-->
+	<button onclick="deleteRow()" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"> Eliminar fila(s) </button>
 	<button onclick="clearTable()" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded"> Limpiar tabla </button>
-	<button onclick="exportJSON()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"> Generar comandos </button>
+	<button onclick="generarComandos()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"> Generar comandos </button>
 
 </div>
 
@@ -42,7 +44,6 @@ Analizador objetos meta4
 
 var table
 var jsonData=[]
-
 
 var tipoTransferMutator = function(value, data, type, params, component){
     
@@ -129,30 +130,27 @@ function createTable(data){
 	table = new Tabulator("#table",{
 
 		data:data,
-		//layout:"fitColumns",
-		addRowPos:"top",
+		layout:"fitDataStretch",
 		height:"425px",
-		pagination:false,
-		paginationSize:8,
-		selectable:1,
-		movableColumns:true,
+		selectable:10000000,
 		columns:[
-			
-			{field:"idClass",title:"idClass",frozen:true,editor:true},
-			{field:"valorObjeto",title:"valorObjeto",frozen:true,editor:true},
-			{field:"idObjeto",title:"idObjeto",editor:true},
-			{field:"usuario",title:"usuario",editor:true},
-			{field:"fecha",title:"fecha",sorter:"date",editor:true,sorterParams:{format:"yyyy-MM-dd"},formatter:"datetime", 
+		
+			{field:"tipoTransfer",title:"tipo",mutator:tipoTransferMutator,width:100},
+			{field:"usuario",title:"usuario",width:100},
+			{field:"fecha",title:"fecha",sorter:"date",sorterParams:{format:"yyyy-MM-dd"},formatter:"datetime",width:100, 
 				formatterParams:{
 				inputFormat:"yyyy-MM-dd",
 				outputFormat:"dd/MM/yyyy",
 				invalidPlaceholder:"(invalid date)"}
 			},
-			{field:"tipoTransfer",title:"tipoTransfer",mutator:tipoTransferMutator,editorParams:{values:["R","T"]},editor:"list"},
-			{field:"camposObjeto",title:"camposObjeto", visible:false,editor:true},
-			{field:"comando",title:"comando",mutator:componeComandoMutator,editor:true}
+			{field:"idClass",title:"idClass"},
+			{field:"idObjeto",title:"idObjeto"},
+			{field:"valorObjeto",title:"valorObjeto"},
+			{field:"camposObjeto",title:"camposObjeto",visible:false},
+			{field:"comando",title:"comando",mutator:componeComandoMutator,visible:false}
 		]
 	});
+	
 }
 
 /* cargar JSON */
@@ -163,7 +161,6 @@ document.getElementById("fileInput").addEventListener("change",function(e){
 		const json=JSON.parse(event.target.result)
 		jsonData=json.objetosModificados
 		createTable(jsonData)
-
 	}
 	
 	var nombreFichero = e.target.files[0].name;
@@ -172,7 +169,7 @@ document.getElementById("fileInput").addEventListener("change",function(e){
 
 })
 
-//Al haer clcik en el boton de fichero borramos el contenido para permitir cargar el mismo fichero varias veces
+//Al haer click en el boton de fichero borramos el contenido para permitir cargar el mismo fichero varias veces
 document.getElementById("fileInput").addEventListener("click",function(e){
 	
 	document.getElementById("fileInput").value = "";
@@ -217,26 +214,40 @@ function deleteRow(){
 		alert("Selecciona una fila")
 		return
 	}
-	rows[0].delete()
-
+	
+	for (let i = 0; i < rows.length; i++) {
+	  rows[i].delete();
+	}
+	
 }
 
 /* exportar */
-function exportJSON(){
+function generarComandos(){
 	
 	const fechaIsoString = new Date().toISOString();
-	const data=table.getData()
-	const finalJSON={
-		objetosModificados:data
+	const vArrayDatosTabla=table.getData()
+	
+	let vTextoExportar = "";
+	let vComando = "";
+	let vSeparador = "\\";
+	let vSaltoLinea = "\r\n";
+	
+	function componeTextoExportar(element, index, array) {
+		
+		//Obtenemos el comando y lo vamos concatenando en la variable con el texto que volcaremos al fichero
+		vComando = element.comando;
+		vTextoExportar = vTextoExportar + vComando + vSeparador + vSaltoLinea;
+				
 	}
-	const blob=new Blob(
-		[JSON.stringify(finalJSON,null,2)],
-		{type:"application/json"}
-	)
+	
+	//Componemos el texto
+	vArrayDatosTabla.forEach(componeTextoExportar);
+	
+	//Generamos el archivo
+	const blob=new Blob([vTextoExportar],{type:"text/plain;charset=utf-8"});
 	const a=document.createElement("a")
 	a.href=URL.createObjectURL(blob)
-	
-	a.download="objetosModificados"+fechaIsoString+".json"
+	a.download="objetosModificados"+fechaIsoString+".txt";	//Añadimos al nombre del archivo la fecha del sistema
 	a.click()
 
 }
