@@ -146,7 +146,7 @@ function createTableObjetosModificados(data){
 	objTableObjetosModificados = new Tabulator("#tablaObjetosModificados",{
 
 		data:data,
-		//layout:"fitDataStretch",
+		layout:"fitDataStretch",
 		height:"425px",
 		selectable:10000000,
 		movableColumns: true,
