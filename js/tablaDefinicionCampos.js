@@ -10,7 +10,7 @@ function createTablaDefinicion(data){
 		dataTreeChildField:"campos",
 		columns:[
 		
-			{field:"idTabla",title:"idTabla",headerFilter:true},
+			{field:"idTabla",title:"idTabla"},
 			{field:"idTipoCampo",title:"idTipoCampo"},
 			{field:"idCampo",title:"idCampo"}
 		]
@@ -25,11 +25,29 @@ document.getElementById("fileInputTablaDefinicion").addEventListener("change",fu
 	const readerTablaDefinicion=new FileReader()
 	readerTablaDefinicion.onload=function(event){
 		const json=JSON.parse(event.target.result)
+
 		jsonData=json.tablas
-		createTablaDefinicion(jsonData)
+		if (typeof jsonData === 'undefined'){
+			showToast("El archivo JSON elegido no es correcto", "error");
+			document.getElementById("fileInput").value = "";
+		}else{
+			createTablaDefinicion(jsonData)
+		}
 	}
 	
-	readerTablaDefinicion.readAsText(e.target.files[0])
+	var file = e.target.files[0]; // Obtener el primer archivo
+  
+	if (!file) {
+		showToast("No has seleccionado ningun archivo", "error");
+		return; // Si no hay archivo, salir
+	}
+	
+	if (!file.type.match('application/json*')) {
+		showToast("Por favor, selecciona solo archivos de tipo JSON", "error");
+		return; // Detener si no es json
+	}
+	
+	readerTablaDefinicion.readAsText(file)
 
 })
 

@@ -9,17 +9,24 @@ function deleteRow(argTable){
 
 	const rows=argTable.getSelectedRows()
 	if(rows.length===0){
-		alert("Selecciona una fila")
+		showToast("No has seleccionado ninguna fila", "error");
 		return
 	}
 	
-	for (let i = 0; i < rows.length; i++) {
+	for (let i = 0; i < rows.length; i++){
 		rows[i].delete();
 	}
 }
 
 /* vaciar tabla */
 function clearTable(argTable){
-	
 	argTable.clearData()
+}
+
+function mostrarAlertaTabla(argTable,texto){
+	argTable.alert(texto);
+}
+
+function mostrarAlertaTabla(argTable){
+	argTable.clearAlert();
 }

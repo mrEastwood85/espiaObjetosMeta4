@@ -6,6 +6,8 @@
 	
 	<link href="https://unpkg.com/tabulator-tables@5.5.2/dist/css/tabulator.min.css" rel="stylesheet">
 	<link href="css/estilos.css" rel="stylesheet">
+	<link href="css/popup.css" rel="stylesheet">
+	<link href="css/toast.css" rel="stylesheet">
 	
 	<script src="https://cdn.tailwindcss.com"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/luxon@2.3.1/build/global/luxon.min.js"></script>
@@ -29,7 +31,8 @@
 			<input type="file" id="fileInput" class="border rounded px-3 py-2">
 			<button onclick="deleteRow(objTableObjetosModificados)" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"> Eliminar fila(s) </button>
 			<button onclick="clearTable(objTableObjetosModificados)" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded"> Limpiar tabla </button>
-			<button onclick="generarComandos()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"> Generar comandos </button>
+			<button onclick="filtrarTexto('errorComando')" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"> Filtrar comandos erroneos </button>
+			<button onclick="generarComandos()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded"> Generar comandos </button>
 		</div>
 		<div class="mb-6">
 			<input id="buscadorObjetosModificados" type="text" placeholder="Buscar en toda la tabla..." class="w-full border rounded px-4 py-2">
@@ -47,11 +50,28 @@
 		<div id="tablaDefinicionCampos"></div>
 	</div>
 </div>
+<div id="popup-overlay" class="popup-overlay">
+  <div class="popup">
+    <div class="popup-header">
+      <span id="popup-title">Mensaje</span>
+      <button id="popup-close">&times;</button>
+    </div>
+    <div id="popup-body" class="popup-body"></div>
+    <div class="popup-footer">
+      <button id="popup-ok">Aceptar</button>
+    </div>
+  </div>
+</div>
+<div id="toast-container" class="toast-container"></div>
 
+<script src="js/popup.js"></script>
+<script src="js/toast.js"></script>
 <script src="js/pestanas.js"></script>
 <script src="js/comunTablas.js"></script>
 <script src="js/tablaDefinicionCampos.js"></script>
 <script src="js/tablaObjetosModificados.js"></script>
+
+
 
 </body>
 </html>
