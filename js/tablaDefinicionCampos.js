@@ -6,7 +6,7 @@ function createTablaDefinicion(data){
 		layout:"fitDataStretch",
 		height:"425px",
 		dataTree:true,
-		dataTreeStartExpanded:true,
+		dataTreeStartExpanded:false,
 		dataTreeChildField:"campos",
 		columns:[
 		
