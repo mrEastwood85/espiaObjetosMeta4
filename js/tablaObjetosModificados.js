@@ -253,14 +253,13 @@ function addRow(){
 		tipoTransfer:"",
 		idRealObjectLectura:""
 	})
-
 }
 
 /* exportar */
 function generarComandos(){
 	
 	const fechaIsoString = new Date().toISOString();
-	const vArrayDatosTabla=objTableObjetosModificados.getData()
+	const vArrayDatosExportar = objTableObjetosModificados.searchData("status", "=", true);		//Exportaremos solo los que tienen status = ok
 	
 	let vTextoExportar = "";
 	let vComando = "";
@@ -272,17 +271,17 @@ function generarComandos(){
 		//Obtenemos el comando y lo vamos concatenando en la variable con el texto que volcaremos al fichero
 		vComando = element.comando;
 		vTextoExportar = vTextoExportar + vComando + vSeparador + vSaltoLinea;
-				
 	}
 	
 	//Componemos el texto
-	vArrayDatosTabla.forEach(componeTextoExportar);
+	vArrayDatosExportar.forEach(componeTextoExportar);
 	
 	var vRowsComandoErroneo = objTableObjetosModificados.searchRows("status", "=", false);
 	if (vRowsComandoErroneo.length > 0){
 		showToast("Los comandos erroneos no se han exportado", "warning");
 	}
 	
+	return;
 	//Generamos el archivo
 	const blob=new Blob([vTextoExportar],{type:"text/plain;charset=utf-8"});
 	const a=document.createElement("a")
@@ -293,9 +292,21 @@ function generarComandos(){
 }
 
 
-function filtrarTexto(textoFiltro){
+function filtrarTexto(textoFiltro,objetoMostrar,objetoOcultar){
 	
-	if (textoFiltro == 'errorComando'){textoFiltro = "No se puede generar el comando."}
+	if (textoFiltro == 'errorComando'){
+		textoFiltro = "No se puede generar el comando."
+	}
+	
+	if (objetoMostrar != ''){
+		document.getElementById(objetoMostrar).classList.add("display-block");
+		document.getElementById(objetoMostrar).classList.remove("display-none");
+	}
+	if (objetoOcultar != ''){
+		document.getElementById(objetoOcultar).classList.remove("display-block");
+		document.getElementById(objetoOcultar).classList.add("display-none");
+	}
+	
 	document.getElementById("buscadorObjetosModificados").value = textoFiltro;
 	
 	//pasamos a minusculas para que el buscador encuentra mayusc y minusc

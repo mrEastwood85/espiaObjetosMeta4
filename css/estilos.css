@@ -53,3 +53,19 @@ body {
 .tab-content.active {
   display: block;
 }
+
+.visible {
+  visibility: visible;
+}
+
+.not-visible {
+  visibility: hidden;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
