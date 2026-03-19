@@ -281,7 +281,6 @@ function generarComandos(){
 		showToast("Los comandos erroneos no se han exportado", "warning");
 	}
 	
-	return;
 	//Generamos el archivo
 	const blob=new Blob([vTextoExportar],{type:"text/plain;charset=utf-8"});
 	const a=document.createElement("a")
