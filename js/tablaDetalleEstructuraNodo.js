@@ -1,25 +1,4 @@
 
-var tipoTransferMutator = function(value, data, type, params, component){
-    
-	var valorRetornado
-	
-	switch (value){
-	case "R":
-		valorRetornado = "REPLACE";
-		break;
-	case "L":
-		valorRetornado = "TRANSFER";
-		break;
-	case "T":
-		valorRetornado = "TRANSFER";
-		break;
-	default:
-		valorRetornado = "sinTipo";
-		break;
-	}
-    return valorRetornado;
-}
-
 var statusMutator = function(value, data, type, params, component){
     
 	var valorRetornado = true;
@@ -141,9 +120,9 @@ var componeComandoMutator = function(value, data, type, params, component){
     return valorRetornado;
 }
 
-function createTableObjetosModificados(data){
+function createTableItemsModificados(data){
 
-	objTableObjetosModificados = new Tabulator("#tablaObjetosModificados",{
+	objTableItemsModificados = new Tabulator("#tablaItemsModificados",{
 
 		data:data,
 		layout:"fitDataTable",
@@ -152,7 +131,6 @@ function createTableObjetosModificados(data){
 		movableColumns: true,
 		columns:[
 			
-			{field:"tipoTransfer",title:"tipo",mutator:tipoTransferMutator,width:100},
 			{field:"usuario",title:"usuario",width:100},
 			{field:"fecha",title:"fecha",sorter:"date",sorterParams:{format:"yyyy-MM-dd"},formatter:"datetime",width:100, 
 				formatterParams:{
@@ -169,14 +147,14 @@ function createTableObjetosModificados(data){
 		]
 	});
 	
-	objTableObjetosModificados.on("tableBuilt", function(){
-		objTableObjetosModificados.moveColumn("status", "tipoTransfer", false);
+	objTableItemsModificados.on("tableBuilt", function(){
+		objTableItemsModificados.moveColumn("status", "tipoTransfer", false);
 	});
 	
 }
 
 /* cargar JSON */
-document.getElementById("fileInput").addEventListener("change",function(e){
+document.getElementById("fileInputTablaItemsModificados").addEventListener("change",function(e){
 
 	//Comprobamos si han cargado primero la definicion de tablas	
 	vIsLoad = false;
@@ -234,7 +212,7 @@ document.getElementById("buscadorObjetosModificados").addEventListener("keyup",f
 
 	const value=this.value.toLowerCase()
 
-	objTableObjetosModificados.setFilter(function(data){
+	objTableItemsModificados.setFilter(function(data){
 
 		return Object.values(data).some(v=>
 
@@ -246,7 +224,7 @@ document.getElementById("buscadorObjetosModificados").addEventListener("keyup",f
 /* añadir fila */
 function addRow(){
 
-	objTableObjetosModificados.addRow({
+	objTableItemsModificados.addRow({
 		idClass:"",
 		idRealObject:"",
 		idPkField:"",
@@ -259,7 +237,7 @@ function addRow(){
 function generarComandos(){
 	
 	const fechaIsoString = new Date().toISOString();
-	const vArrayDatosExportar = objTableObjetosModificados.searchData("status", "=", true);		//Exportaremos solo los que tienen status = ok
+	const vArrayDatosExportar = objTableItemsModificados.searchData("status", "=", true);		//Exportaremos solo los que tienen status = ok
 	
 	let vTextoExportar = "";
 	let vComando = "";
@@ -276,7 +254,7 @@ function generarComandos(){
 	//Componemos el texto
 	vArrayDatosExportar.forEach(componeTextoExportar);
 	
-	var vRowsComandoErroneo = objTableObjetosModificados.searchRows("status", "=", false);
+	var vRowsComandoErroneo = objTableItemsModificados.searchRows("status", "=", false);
 	if (vRowsComandoErroneo.length > 0){
 		showToast("Los comandos erroneos no se han exportado", "warning");
 	}
@@ -311,7 +289,7 @@ function filtrarTexto(textoFiltro,objetoMostrar,objetoOcultar){
 	//pasamos a minusculas para que el buscador encuentra mayusc y minusc
 	textoFiltro = textoFiltro.toLowerCase();
 	
-	objTableObjetosModificados.setFilter(function(data){
+	objTableItemsModificados.setFilter(function(data){
 
 		return Object.values(data).some(v=>
 
